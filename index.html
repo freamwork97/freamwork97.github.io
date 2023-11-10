@@ -7,29 +7,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header class="bg-dark text-white text-center py-4">
-        <h1>나의 GitHub 페이지</h1>
-    </header>
-
-    <nav class="navbar navbar-dark bg-secondary p-2">
-        <div class="container">
-            <!-- 메뉴 파일 포함 -->
-            <div class="navbar-collapse">
+    <div class="container">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar">
+                <!-- 메뉴 파일 포함 -->
                 <include src="menu.html"></include>
-            </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <header class="bg-dark text-white text-center py-4">
+                    <h1>나의 GitHub 페이지</h1>
+                </header>
+
+                <main class="container my-4">
+                    <section>
+                        <h2>환영합니다!</h2>
+                        <p>이곳은 나의 GitHub 페이지입니다.</p>
+                    </section>
+                </main>
+
+                <footer class="bg-dark text-white text-center py-3">
+                    <p>&copy; windra</p>
+                </footer>
+            </main>
         </div>
-    </nav>
-
-    <main class="container my-4">
-        <section>
-            <h2>환영합니다!</h2>
-            <p>이곳은 나의 GitHub 페이지입니다.</p>
-        </section>
-    </main>
-
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; windra</p>
-    </footer>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
