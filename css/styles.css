@@ -1,0 +1,15 @@
+body {
+    margin-bottom: 60px; /* 푸터 높이보다 큰 여백을 만듭니다. */
+}
+
+main {
+    padding-bottom: 20px; /* 여백이 없을 경우 푸터와 겹치지 않도록 padding을 추가합니다. */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    height: 60px; /* 푸터의 높이를 적절한 값으로 조절합니다. */
+}
