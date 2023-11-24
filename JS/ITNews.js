@@ -12,7 +12,6 @@ $(function(){
         '<a href="https://kr.investing.com/news/stock-market-news/article-968379">엔비디아 내리고 인텔 오르고…반도체주 희비</a>',
         '<a href="https://businesspost.co.kr/BP?command=article_view&idxno=333289">TSMC 마이크로소프트 AI 반도체도 생산, 파운드리 시장 지배력 더 키운다</a>',
         '<a href="https://n.news.naver.com/mnews/article/001/0014344095?rc=N&ntype=RANKING">"MS가 쿠데타 일으켰다"…전세계 AI 대격변</a>',
-
         // Add your links here
     ];
 
@@ -32,21 +31,56 @@ $(function(){
         });
     }
 
-    function generatePaginationButtons() {
+     function generatePaginationButtons() {
         const paginationContainer = $("#pagination");
         paginationContainer.empty();
+
+        // Disable "처음" and "이전" buttons on the first page
+        if (currentPage === 1) {
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled><i class="bi bi-chevron-double-left"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg></button>`);
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled><i class="bi bi-chevron-left"></i> 이전</button>`);
+        } else {
+            // Add the "처음" button
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(1)"><i class="bi bi-chevron-double-left"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg></button>`);
+            // Add the "이전" button
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${currentPage - 1})"><i class="bi bi-chevron-left"></i> 이전</button>`);
+        }
 
         for (let i = 1; i <= totalPages; i++) {
             const button = `<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${i})">${i}</button>`;
             paginationContainer.append(button);
         }
+
+        // Disable "다음" and "마지막" buttons on the last page
+        if (currentPage === totalPages) {
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled>다음 <i class="bi bi-chevron-right"></i></button>`);
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg> <i class="bi bi-chevron-double-right"></i></button>`);
+        } else {
+            // Add the "다음" button
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${currentPage + 1})">다음 <i class="bi bi-chevron-right"></i></button>`);
+            // Add the "마지막" button
+            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${totalPages})"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg> <i class="bi bi-chevron-double-right"></i></button>`);
+        }
     }
 
     window.changePage = function(pageNumber) {
-        displayLinks(pageNumber);
+        currentPage = pageNumber;
+        displayLinks(currentPage);
+        generatePaginationButtons();
     };
 
-    displayLinks(1);
+    // Initialize current page
+    let currentPage = 1;
+
+    displayLinks(currentPage);
     generatePaginationButtons();
 });
 
