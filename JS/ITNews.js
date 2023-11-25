@@ -12,7 +12,7 @@ $(function(){
         '<a href="https://kr.investing.com/news/stock-market-news/article-968379">엔비디아 내리고 인텔 오르고…반도체주 희비</a>',
         '<a href="https://businesspost.co.kr/BP?command=article_view&idxno=333289">TSMC 마이크로소프트 AI 반도체도 생산, 파운드리 시장 지배력 더 키운다</a>',
         '<a href="https://n.news.naver.com/mnews/article/001/0014344095?rc=N&ntype=RANKING">"MS가 쿠데타 일으켰다"…전세계 AI 대격변</a>',
-        '<a href="https://m.joongdo.co.kr/view.php?key=20231119010006166">ETRI-ADD \'6G 위성통신\' 선점 힘 모은다… KPS 등 협력</a>',
+        '<a href="https://www.joongdo.co.kr/web/view.php?key=20231119010006166">ETRI-ADD \'6G 위성통신\' 선점 힘 모은다… KPS 등 협력</a>',
         // Add your links here
     ];
 

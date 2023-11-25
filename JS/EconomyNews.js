@@ -13,6 +13,7 @@ $(function(){
         "<a href='https://kr.investing.com/news/economy/article-969335'>\"내년도 쉽지 않다\"…韓 경제 2.0% 성장 전망</a>",
         "<a href='https://www.ajunews.com/view/20231119142128073'>아마존·알리바바, 11번가에 눈독…큐텐 매각 협상 불발 후폭풍</a>",
         "<a href='https://kr.investing.com/news/economy/article-969529'>은행권, ‘역대 최대’ 이자수익 거둬…3분기 누적 44兆 돌파</a>",
+        "<a href='https://n.news.naver.com/mnews/article/366/0000949982?sid=101'>[단독] ‘홍콩 ELS’ 3兆 손실 우려… 금감원, KB국민은행 현장 조사 착수</a>",
         // Add your links here
     ];
 
