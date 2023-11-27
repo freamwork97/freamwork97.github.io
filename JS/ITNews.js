@@ -83,8 +83,3 @@ $(function(){
     displayLinks(currentPage);
     generatePaginationButtons();
 });
-
-// Use JavaScript to load the navigation content into the placeholder
-$(function(){
-    $("#navigation-placeholder").load("../Navi/NewsNavi.html");
-});

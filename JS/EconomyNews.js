@@ -85,7 +85,3 @@ $(function(){
     displayLinks(currentPage);
     generatePaginationButtons();
 });
-
-$(function(){
-    $("#navigation-placeholder").load("../Navi/NewsNavi.html");
-});
