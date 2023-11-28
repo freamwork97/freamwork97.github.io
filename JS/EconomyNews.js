@@ -17,6 +17,8 @@ $(function(){
         // Add your links here
     ];
 
+    const linksContainer = $("#links-container");
+    const paginationContainer = $("#pagination");
     const linksPerPage = 7;
     const totalPages = Math.ceil(links.length / linksPerPage);
 
@@ -25,53 +27,26 @@ $(function(){
         const endIndex = startIndex + linksPerPage;
         const pageLinks = links.slice(startIndex, endIndex);
 
-        const linksContainer = $("#links-container");
-        linksContainer.empty();
-
-        $.each(pageLinks, function(index, link) {
-            linksContainer.append(`<li>${link}</li><hr>`);
-        });
-    }
+        linksContainer.html(`<li>${pageLinks.join('</li><hr><li>')}</li><hr>`);
+    };
 
     function generatePaginationButtons() {
-        const paginationContainer = $("#pagination");
         paginationContainer.empty();
 
-        // Disable "처음" and "이전" buttons on the first page
-        if (currentPage === 1) {
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled><i class="bi bi-chevron-double-left"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-          </svg></button>`);
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled><i class="bi bi-chevron-left"></i> 이전</button>`);
-        } else {
-            // Add the "처음" button
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(1)"><i class="bi bi-chevron-double-left"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-          </svg></button>`);
-            // Add the "이전" button
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${currentPage - 1})"><i class="bi bi-chevron-left"></i> 이전</button>`);
-        }
+        const createButton = (label, onclick, icon) => `<button class="btn btn-sm btn-outline-secondary" ${onclick ? `onclick="${onclick}"` : 'disabled'}>${icon} ${label}</button>`;
+
+        paginationContainer.append(createButton('<i class="bi bi-chevron-double-left"></i>', currentPage === 1 ? null : 'changePage(1)', 
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>'));
+        paginationContainer.append(createButton('<i class="bi bi-chevron-left"></i> 이전', currentPage === 1 ? null : `changePage(${currentPage - 1})`, '<i class="bi bi-chevron-left"></i>'));
 
         for (let i = 1; i <= totalPages; i++) {
-            const button = `<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${i})">${i}</button>`;
-            paginationContainer.append(button);
+            paginationContainer.append(createButton(i, `changePage(${i})`, ''));
         }
 
-        // Disable "다음" and "마지막" buttons on the last page
-        if (currentPage === totalPages) {
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled>다음 <i class="bi bi-chevron-right"></i></button>`);
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" disabled><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg> <i class="bi bi-chevron-double-right"></i></button>`);
-        } else {
-            // Add the "다음" button
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${currentPage + 1})">다음 <i class="bi bi-chevron-right"></i></button>`);
-            // Add the "마지막" button
-            paginationContainer.append(`<button class="btn btn-sm btn-outline-secondary" onclick="changePage(${totalPages})"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-          </svg> <i class="bi bi-chevron-double-right"></i></button>`);
-        }
-    }
+        paginationContainer.append(createButton('<i class="bi bi-chevron-right"></i> 다음', currentPage === totalPages ? null : `changePage(${currentPage + 1})`, '<i class="bi bi-chevron-right"></i>'));
+        paginationContainer.append(createButton('<i class="bi bi-chevron-right"></i> <i class="bi bi-chevron-double-right"></i>', currentPage === totalPages ? null : `changePage(${totalPages})`, 
+        '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>'));
+    };
 
     window.changePage = function(pageNumber) {
         currentPage = pageNumber;
