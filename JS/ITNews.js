@@ -13,6 +13,8 @@ $(function(){
         '<a href="https://n.news.naver.com/mnews/article/001/0014344095?rc=N&ntype=RANKING">"MS가 쿠데타 일으켰다"…전세계 AI 대격변</a>',
         '<a href="https://www.joongdo.co.kr/web/view.php?key=20231119010006166">ETRI-ADD \'6G 위성통신\' 선점 힘 모은다… KPS 등 협력</a>',
         '<a href="https://www.ciokorea.com/news/315359">노키아, 인간의 음성으로 네트워크 재구성하는 인공지능 기술 공개</a>',
+        '<a href="https://n.news.naver.com/mnews/article/016/0002233796?sid=105">[IT과학칼럼] 6G 선점 위한 저궤도 위성통신의 중요성</a>',
+        '<a href="https://www.psnews.co.kr/news/articleView.html?idxno=2040327">SK, 대구에 8천억원 규모 AI 데이터센터 투자</a>',
         // Add your links here
     ];
 
