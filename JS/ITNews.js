@@ -17,6 +17,7 @@ $(function(){
         '<a href="https://www.psnews.co.kr/news/articleView.html?idxno=2040327">SK, 대구에 8천억원 규모 AI 데이터센터 투자</a>',
         '<a href="http://www.digitaltoday.co.kr/news/articleView.html?idxno=496979">구글 딥마인드, \'모방 학습\'으로 AI 기술 향상…연구</a>',
         '<a href="http://www.digitaltoday.co.kr/news/articleView.html?idxno=496983">메타-IBM 주도 AI 얼라이언스 뜬다...AI기업·연구기관 50여곳 참여</a>',
+        '<a href="https://n.news.naver.com/mnews/article/031/0000795154?sid=105">\'\"망사용료\' 논의 끝나지 않았다…AI 시대 맞은 지금부터 진짜\" [IT돋보기]</a>',
         // Add your links here
     ];
 
