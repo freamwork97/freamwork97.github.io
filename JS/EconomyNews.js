@@ -17,6 +17,7 @@ $(function(){
         "<a href='https://n.news.naver.com/mnews/article/009/0005225075?sid=101'>약달러 타고 지붕 뚫은 금값 JP모건 \"내년 2300弗 돌파\"</a>",
         "<a href='https://n.news.naver.com/mnews/article/011/0004272276?sid=100'>[속보]尹 “네덜란드·美·日과 반도체 협력…경제는 안보의 대명사”</a>",
         "<a href='https://n.news.naver.com/mnews/article/009/0005226872?sid=101'>원유 ETF·ETN에 투자한 개미들 눈물</a>",
+        "<a href='http://www.digitaltoday.co.kr/news/articleView.html?idxno=497747'>카카오 김범수 \"사명까지 바꿀 각오\"...강력한 경영 쇄신 예고</a>",
         // Add your links here
     ];
 
