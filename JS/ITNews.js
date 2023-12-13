@@ -19,6 +19,7 @@ $(function(){
         '<a href="http://www.digitaltoday.co.kr/news/articleView.html?idxno=496983">메타-IBM 주도 AI 얼라이언스 뜬다...AI기업·연구기관 50여곳 참여</a>',
         '<a href="https://n.news.naver.com/mnews/article/031/0000795154?sid=105">\'\"망사용료\' 논의 끝나지 않았다…AI 시대 맞은 지금부터 진짜\" [IT돋보기]</a>',
         '<a href="https://www.aitimes.com/news/articleView.html?idxno=155791">구글, 공부 노트 만들어 주는 AI 앱 ‘노트북LM’ 미국내 출시</a>',
+        '<a href="https://n.news.naver.com/article/025/0003328101?sid=105">[단독] 네이버·삼성 공동 개발한 AI 반도체, 19일 공개된다 | 팩플</a>',
         // Add your links here
     ];
 
