@@ -20,6 +20,8 @@ $(function(){
         '<a href="https://n.news.naver.com/mnews/article/031/0000795154?sid=105">\'\"망사용료\' 논의 끝나지 않았다…AI 시대 맞은 지금부터 진짜\" [IT돋보기]</a>',
         '<a href="https://www.aitimes.com/news/articleView.html?idxno=155791">구글, 공부 노트 만들어 주는 AI 앱 ‘노트북LM’ 미국내 출시</a>',
         '<a href="https://n.news.naver.com/article/025/0003328101?sid=105">[단독] 네이버·삼성 공동 개발한 AI 반도체, 19일 공개된다 | 팩플</a>',
+        '<a href="https://n.news.naver.com/mnews/article/023/0003804843?sid=105">네이처, 올해의 과학계 인물에 챗 GPT 선정...非인간 최초</a>',
+        '<a href="https://n.news.naver.com/mnews/article/011/0004274590?sid=102">IT·SW 등 170여개사 4000명 상주…‘제2의 판교밸리’로 급성장</a>',
         // Add your links here
     ];
 
