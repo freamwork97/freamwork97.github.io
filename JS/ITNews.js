@@ -22,6 +22,8 @@ $(function(){
         '<a href="https://n.news.naver.com/article/025/0003328101?sid=105">[단독] 네이버·삼성 공동 개발한 AI 반도체, 19일 공개된다 | 팩플</a>',
         '<a href="https://n.news.naver.com/mnews/article/023/0003804843?sid=105">네이처, 올해의 과학계 인물에 챗 GPT 선정...非인간 최초</a>',
         '<a href="https://n.news.naver.com/mnews/article/011/0004274590?sid=102">IT·SW 등 170여개사 4000명 상주…‘제2의 판교밸리’로 급성장</a>',
+        '<a href="https://www.aitimes.com/news/articleView.html?idxno=155878">인텔 "생성 AI 현실화는 온디바이스 AI뿐...PC 업체 수십곳이 ‘코어 울트라’ 탑재"</a>',
+        '<a href="https://www.aitimes.com/news/articleView.html?idxno=155885">MS, \'애저 AI 스튜디오\' 대폭 확장...오픈 소스 LLM 40개 추가</a>',
         // Add your links here
     ];
 
