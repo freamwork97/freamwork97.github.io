@@ -25,6 +25,10 @@ $(function(){
         '<a href="https://www.aitimes.com/news/articleView.html?idxno=155878">인텔 "생성 AI 현실화는 온디바이스 AI뿐...PC 업체 수십곳이 ‘코어 울트라’ 탑재"</a>',
         '<a href="https://www.aitimes.com/news/articleView.html?idxno=155885">MS, \'애저 AI 스튜디오\' 대폭 확장...오픈 소스 LLM 40개 추가</a>',
         '<a href="https://n.news.naver.com/mnews/article/030/0003166210">韓이 제안한 6G 주파수 3개 대역, 세계전파통신회의서 채택</a>',
+        '<a href="https://n.news.naver.com/article/092/0002315275?sid=105">거대 AI 모델, 인간 도움 없이 \'초소형 AI\' 만든다</a>',
+        '<a href="http://www.digitaltoday.co.kr/news/articleView.html?idxno=498450">네이버, 국민건강보험공단과 초대규모 AI 기반 공공 서비스 혁신 \'맞손\'</a>',
+        '<a href="https://www.yna.co.kr/view/AKR20231218068400017?input=1195">카톡에 AI로 대화 요약·말투 변경 기능 도입</a>',
+        '<a href="https://n.news.naver.com/article/020/0003537615?sid=105">인텔, 첫 인텔 4 공정 기반의 \'인텔 코어 울트라\' 국내에 소개</a>',
         // Add your links here
     ];
 
