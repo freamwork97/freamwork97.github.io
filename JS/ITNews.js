@@ -29,6 +29,8 @@ $(function(){
         '<a href="http://www.digitaltoday.co.kr/news/articleView.html?idxno=498450">네이버, 국민건강보험공단과 초대규모 AI 기반 공공 서비스 혁신 \'맞손\'</a>',
         '<a href="https://www.yna.co.kr/view/AKR20231218068400017?input=1195">카톡에 AI로 대화 요약·말투 변경 기능 도입</a>',
         '<a href="https://n.news.naver.com/article/020/0003537615?sid=105">인텔, 첫 인텔 4 공정 기반의 \'인텔 코어 울트라\' 국내에 소개</a>',
+        '<a href="https://www.aitimes.com/news/articleView.html?idxno=156089">미디어젠-ETRI "구글 \'컨포머\'보다 빠른 컨볼루션 신경망 아키텍처 개발"</a>',
+        '<a href="https://www.chosun.com/economy/tech_it/2023/12/26/TZSMNRPWRNAGFLAJRIBUE5PKCQ/">네이버 개발자 3명이 만든 세계 1위 ‘솔라’, AI업계를 뒤흔들다</a>',
         // Add your links here
     ];
 
