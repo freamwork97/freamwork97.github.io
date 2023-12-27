@@ -31,6 +31,7 @@ $(function(){
         '<a href="https://n.news.naver.com/article/020/0003537615?sid=105">인텔, 첫 인텔 4 공정 기반의 \'인텔 코어 울트라\' 국내에 소개</a>',
         '<a href="https://www.aitimes.com/news/articleView.html?idxno=156089">미디어젠-ETRI "구글 \'컨포머\'보다 빠른 컨볼루션 신경망 아키텍처 개발"</a>',
         '<a href="https://www.chosun.com/economy/tech_it/2023/12/26/TZSMNRPWRNAGFLAJRIBUE5PKCQ/">네이버 개발자 3명이 만든 세계 1위 ‘솔라’, AI업계를 뒤흔들다</a>',
+        '<a href="https://www.itworld.co.kr/news/317489">프로젝트 룸 : 새로운 자바 동시성 모델 이해하기</a>',
         // Add your links here
     ];
 
