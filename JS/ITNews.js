@@ -32,6 +32,8 @@ $(function(){
         '<a href="https://www.aitimes.com/news/articleView.html?idxno=156089">미디어젠-ETRI "구글 \'컨포머\'보다 빠른 컨볼루션 신경망 아키텍처 개발"</a>',
         '<a href="https://www.chosun.com/economy/tech_it/2023/12/26/TZSMNRPWRNAGFLAJRIBUE5PKCQ/">네이버 개발자 3명이 만든 세계 1위 ‘솔라’, AI업계를 뒤흔들다</a>',
         '<a href="https://www.itworld.co.kr/news/317489">프로젝트 룸 : 새로운 자바 동시성 모델 이해하기</a>',
+        '<a href="https://zdnet.co.kr/view/?no=20231228172824">새해 AI PC 원년...인텔·퀄컴·애플·AMD 각축전</a>',
+        '<a href="https://zdnet.co.kr/view/?no=20240106000928">삼성D, 360도 접히는 \'인앤아웃 플립\' 등 폴더블 혁신 깜짝 공개</a>',
         // Add your links here
     ];
 
