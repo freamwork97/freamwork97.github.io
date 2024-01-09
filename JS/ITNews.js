@@ -34,6 +34,7 @@ $(function(){
         '<a href="https://www.itworld.co.kr/news/317489">프로젝트 룸 : 새로운 자바 동시성 모델 이해하기</a>',
         '<a href="https://zdnet.co.kr/view/?no=20231228172824">새해 AI PC 원년...인텔·퀄컴·애플·AMD 각축전</a>',
         '<a href="https://zdnet.co.kr/view/?no=20240106000928">삼성D, 360도 접히는 \'인앤아웃 플립\' 등 폴더블 혁신 깜짝 공개</a>',
+        '<a href="https://n.news.naver.com/mnews/article/018/0005650845?sid=101">\'SK표\' AI·친환경 출격...CES서 기술력 뽐낸다[CES 2024]</a>',
         // Add your links here
     ];
 

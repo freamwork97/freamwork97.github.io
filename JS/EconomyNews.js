@@ -22,6 +22,9 @@ $(function(){
         "<a href='https://kr.investing.com/news/economy/article-984816'>올해 美 금리 내려도…\"제로금리 다시 안 온다\"</a>",
         "<a href='https://n.news.naver.com/mnews/article/001/0014422323?rc=N&ntype=RANKING'>동학개미 삼성전자 매수 평단은…\"8만전자 앞두고 수익권 전환\"</a>",
         "<a href='https://n.news.naver.com/article/648/0000022260'>공모펀드 뜯어고치는 금융당국…국민 재산증식 역할할까</a>",
+        "<a href='https://n.news.naver.com/mnews/article/001/0014432433?rc=N&ntype=RANKING'>[2보] 삼성전자 작년 영업이익 6.5조원…15년만의 최저치</a>",
+        "<a href='https://n.news.naver.com/mnews/article/016/0002249654?sid=101'>삼성전자 ‘영업익 3조’ 못 미쳤지만...증권가는 “10만전자” 기대감</a>",
+        "<a href='https://n.news.naver.com/mnews/article/001/0014433594?rc=N&ntype=RANKING'>태영, 채권단 '워크아웃 무산' 압박에 SBS 지분 담보까지 언급</a>",
         // Add your links here
     ];
 
