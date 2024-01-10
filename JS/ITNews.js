@@ -35,6 +35,9 @@ $(function(){
         '<a href="https://zdnet.co.kr/view/?no=20231228172824">새해 AI PC 원년...인텔·퀄컴·애플·AMD 각축전</a>',
         '<a href="https://zdnet.co.kr/view/?no=20240106000928">삼성D, 360도 접히는 \'인앤아웃 플립\' 등 폴더블 혁신 깜짝 공개</a>',
         '<a href="https://n.news.naver.com/mnews/article/018/0005650845?sid=101">\'SK표\' AI·친환경 출격...CES서 기술력 뽐낸다[CES 2024]</a>',
+        '<a href="https://kr.investing.com/news/stock-market-news/article-432SI-987602">엔비디아 헬스케어 부문, 이미 10억 달러 규모 – JP모건</a>',
+        '<a href="https://byline.network/2024/01/08-136/">[CES 2024] 삼성의 전략은 ‘모든 것에 AI를‘</a>',
+        '<a href="https://www.newsis.com/view/?id=NISX20240109_0002585897&cID=13005&pID=13100">제4이통 도전 스테이지파이브, 8000억 확보…"재무건전성 자신"</a>',
         // Add your links here
     ];
 
