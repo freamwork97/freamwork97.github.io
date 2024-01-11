@@ -25,6 +25,8 @@ $(function(){
         "<a href='https://n.news.naver.com/mnews/article/001/0014432433?rc=N&ntype=RANKING'>[2보] 삼성전자 작년 영업이익 6.5조원…15년만의 최저치</a>",
         "<a href='https://n.news.naver.com/mnews/article/016/0002249654?sid=101'>삼성전자 ‘영업익 3조’ 못 미쳤지만...증권가는 “10만전자” 기대감</a>",
         "<a href='https://n.news.naver.com/mnews/article/001/0014433594?rc=N&ntype=RANKING'>태영, 채권단 '워크아웃 무산' 압박에 SBS 지분 담보까지 언급</a>",
+        "<a href='https://n.news.naver.com/article/366/0000961558?type=breakingnews'>한국은행, 새해 첫 기준금리 연 3.5%로 8연속 동결</a>",
+        "<a href='https://www.yna.co.kr/view/AKR20240111011753072?input=1195m'>美증권위, 11개 비트코인 현물 ETF 상장 승인…11일부터 거래(종합)</a>",
         // Add your links here
     ];
 
