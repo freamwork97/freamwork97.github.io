@@ -27,6 +27,8 @@ $(function(){
         "<a href='https://n.news.naver.com/mnews/article/001/0014433594?rc=N&ntype=RANKING'>태영, 채권단 '워크아웃 무산' 압박에 SBS 지분 담보까지 언급</a>",
         "<a href='https://n.news.naver.com/article/366/0000961558?type=breakingnews'>한국은행, 새해 첫 기준금리 연 3.5%로 8연속 동결</a>",
         "<a href='https://www.yna.co.kr/view/AKR20240111011753072?input=1195m'>美증권위, 11개 비트코인 현물 ETF 상장 승인…11일부터 거래(종합)</a>",
+        "<a href='https://n.news.naver.com/mnews/article/022/0003894008?sid=101'>美, 비트코인 현물 ETF 승인…국내서는 차단 나서 [한강로 경제브리핑]</a>",
+        "<a href='https://n.news.naver.com/mnews/article/001/0014440169?rc=N&ntype=RANKING'>ETF 거래 첫날 비트코인 4만9천달러 찍고 하락…이더리움은 급등(종합)</a>",
         // Add your links here
     ];
 

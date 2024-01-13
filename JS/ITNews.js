@@ -38,6 +38,8 @@ $(function(){
         '<a href="https://kr.investing.com/news/stock-market-news/article-432SI-987602">엔비디아 헬스케어 부문, 이미 10억 달러 규모 – JP모건</a>',
         '<a href="https://byline.network/2024/01/08-136/">[CES 2024] 삼성의 전략은 ‘모든 것에 AI를‘</a>',
         '<a href="https://www.newsis.com/view/?id=NISX20240109_0002585897&cID=13005&pID=13100">제4이통 도전 스테이지파이브, 8000억 확보…"재무건전성 자신"</a>',
+        '<a href="https://kr.investing.com/news/stock-market-news/article-988773">AI 이끌 차세대 반도체 한눈에…CES에 드러낸 삼성의 자신감 [CES]</a>',
+        '<a href="https://kr.investing.com/news/stock-market-news/article-988750">[CES 2024] 최첨단 기술 향연...韓 기업들 어떤 제품 선보였나</a>',
         // Add your links here
     ];
 
