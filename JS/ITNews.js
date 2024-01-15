@@ -40,6 +40,7 @@ $(function(){
         '<a href="https://www.newsis.com/view/?id=NISX20240109_0002585897&cID=13005&pID=13100">제4이통 도전 스테이지파이브, 8000억 확보…"재무건전성 자신"</a>',
         '<a href="https://kr.investing.com/news/stock-market-news/article-988773">AI 이끌 차세대 반도체 한눈에…CES에 드러낸 삼성의 자신감 [CES]</a>',
         '<a href="https://kr.investing.com/news/stock-market-news/article-988750">[CES 2024] 최첨단 기술 향연...韓 기업들 어떤 제품 선보였나</a>',
+        '<a href="https://n.news.naver.com/mnews/article/001/0014444247?rc=N&ntype=RANKING">622조 투입 반도체클러스터 \'세계 최대·최고\'로…정부 총력지원</a>',
         // Add your links here
     ];
 
