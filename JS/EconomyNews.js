@@ -29,7 +29,9 @@ $(function(){
         "<a href='https://www.yna.co.kr/view/AKR20240111011753072?input=1195m'>美증권위, 11개 비트코인 현물 ETF 상장 승인…11일부터 거래(종합)</a>",
         "<a href='https://n.news.naver.com/mnews/article/022/0003894008?sid=101'>美, 비트코인 현물 ETF 승인…국내서는 차단 나서 [한강로 경제브리핑]</a>",
         "<a href='https://n.news.naver.com/mnews/article/001/0014440169?rc=N&ntype=RANKING'>ETF 거래 첫날 비트코인 4만9천달러 찍고 하락…이더리움은 급등(종합)</a>",
-        "<a href='https://kr.investing.com/news/stock-market-news/article-989476'>홍해 해상 물류대란…'에너지주 반등' 촉매제 되나 </a>",
+        "<a href='https://kr.investing.com/news/stock-market-news/article-989476'>홍해 해상 물류대란…'에너지주 반등' 촉매제 되나</a>",
+        "<a href='https://n.news.naver.com/mnews/article/001/0014453245?rc=N&ntype=RANKING'>대통령실, 비트코인 ETF에 \"특정 방향성 갖지 말도록 했다\"</a>",
+        "<a href='https://kr.investing.com/news/stock-market-news/article-990969'>中개미 피난처 된 일본 증시…닛케이 ETF에 뭉칫돈</a>",
         // Add your links here
     ];
 
