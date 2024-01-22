@@ -31,6 +31,8 @@ $(function () {
     "<a href='https://kr.investing.com/news/stock-market-news/article-989476'>홍해 해상 물류대란…'에너지주 반등' 촉매제 되나</a>",
     "<a href='https://n.news.naver.com/mnews/article/001/0014453245?rc=N&ntype=RANKING'>대통령실, 비트코인 ETF에 \"특정 방향성 갖지 말도록 했다\"</a>",
     "<a href='https://kr.investing.com/news/stock-market-news/article-990969'>中개미 피난처 된 일본 증시…닛케이 ETF에 뭉칫돈</a>",
+    "<a href='https://kr.investing.com/news/economy/article-992080'>\"올해 성장률 2.2% 전망…국가채무 걱정 안해도 돼\"</a>",
+    "<a href='https://kr.investing.com/news/stock-market-news/article-992212'>전자업계 실적시즌 개막…SK하이닉스, 1년만에 적자 탈출하나</a>",
     // Add your links here
   ];
 
