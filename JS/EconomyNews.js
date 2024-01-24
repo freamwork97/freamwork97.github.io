@@ -33,6 +33,9 @@ $(function () {
     "<a href='https://kr.investing.com/news/stock-market-news/article-990969'>中개미 피난처 된 일본 증시…닛케이 ETF에 뭉칫돈</a>",
     "<a href='https://kr.investing.com/news/economy/article-992080'>\"올해 성장률 2.2% 전망…국가채무 걱정 안해도 돼\"</a>",
     "<a href='https://kr.investing.com/news/stock-market-news/article-992212'>전자업계 실적시즌 개막…SK하이닉스, 1년만에 적자 탈출하나</a>",
+    "<a href='https://kr.investing.com/news/stock-market-news/article-992759'>[공시] 삼성생명, 삼성전자 지분 매수...”세계 반도체 시장 호재 전망”</a>",
+    "<a href='https://kr.investing.com/news/stock-market-news/article-992776'>\"테슬라보다 MS\"…서학개미 올해 베팅은 'AI'</a>",
+    "<a href='https://kr.investing.com/news/stock-market-news/article-993330'>상장사, 작년 자사주 4.8조 태웠다…신한지주·현대차 1·2위</a>",
     // Add your links here
   ];
 
