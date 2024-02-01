@@ -37,6 +37,7 @@ $(function () {
     "<a href='https://kr.investing.com/news/stock-market-news/article-992776'>\"테슬라보다 MS\"…서학개미 올해 베팅은 'AI'</a>",
     "<a href='https://kr.investing.com/news/stock-market-news/article-993330'>상장사, 작년 자사주 4.8조 태웠다…신한지주·현대차 1·2위</a>",
     "<a href='https://n.news.naver.com/mnews/article/001/0014478384?rc=N&ntype=RANKING'>삼성전자 \"2026년까지 3년간 잉여현금흐름 50% 주주환원\"</a>",
+    "<a href='https://kr.investing.com/news/stock-market-news/article-997278'>‘1조 주식 소각’ 삼성물산, 수익성·주주가치 제고 두 마리 토끼 모두 잡는다</a>",
     // Add your links here
   ];
 
