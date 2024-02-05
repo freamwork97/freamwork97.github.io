@@ -44,6 +44,7 @@ $(function () {
     '<a href="https://www.newsis.com/view/?id=NISX20240118_0002597616&cID=10406&pID=13100">카카오, AI 언어모델 \'허니비\' 첫 공개…정부 "AI 대중화 전력투구"</a>',
     '<a href="https://kr.investing.com/news/stock-market-news/article-992777">\'오픈AI\' 올트먼, 경계현 삼성전자 사장 만날 듯…"신 AI 동맹 구축"</a>',
     "<a href=\"https://www.aitimes.com/news/articleView.html?idxno=156709\">챗봇이 텍스트를 '이해'할 수 있다고 주장하는 논문 등장</a>",
+    "<a href='https://www.aitimes.com/news/articleView.html?idxno=156960'>허깅 페이스, 오픈 소스 'AI 챗봇 메이커' 출시...'GPT 빌더'와 경쟁</a>",
     // Add your links here
   ];
 
