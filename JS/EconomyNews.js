@@ -39,6 +39,9 @@ $(function () {
     "<a href='https://n.news.naver.com/mnews/article/001/0014478384?rc=N&ntype=RANKING'>삼성전자 \"2026년까지 3년간 잉여현금흐름 50% 주주환원\"</a>",
     "<a href='https://kr.investing.com/news/stock-market-news/article-997278'>‘1조 주식 소각’ 삼성물산, 수익성·주주가치 제고 두 마리 토끼 모두 잡는다</a>",
     "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=31722'>'무역전쟁' 예고한 트럼프…\"재집권시 대중관세 60%\"</a>",
+    "<a href='https://kr.investing.com/news/stock-market-news/article-999558'>[개장] 뉴욕증시, 매파 파월에 하락..엔비디아 4%↑</a>",
+    "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=31855'>테슬라 뚝뚝 떨어질수록…서학개미는 '줍줍'</a>",
+    "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=31811'>이재용, 무죄·무죄·무죄에 삼성 '안도'…경제계도 일제히 '환영'</a>",
     // Add your links here
   ];
 
