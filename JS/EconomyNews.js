@@ -42,6 +42,7 @@ $(function () {
     "<a href='https://kr.investing.com/news/stock-market-news/article-999558'>[개장] 뉴욕증시, 매파 파월에 하락..엔비디아 4%↑</a>",
     "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=31855'>테슬라 뚝뚝 떨어질수록…서학개미는 '줍줍'</a>",
     "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=31811'>이재용, 무죄·무죄·무죄에 삼성 '안도'…경제계도 일제히 '환영'</a>",
+    "<a href='https://www.fnnews.com/news/202402041903211092'>뿌리째 흔들린 도요타… 품질 사기 부른 '상명하복 고질병' [글로벌 리포트]</a>",
     // Add your links here
   ];
 
