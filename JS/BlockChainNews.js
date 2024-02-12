@@ -9,6 +9,7 @@ $(function () {
   const paginationContainer = $("#pagination");
   const linksPerPage = 7;
   const totalPages = Math.ceil(links.length / linksPerPage);
+  const maxPaginationButtons = 5; // Maximum number of pagination buttons to display
 
   function displayLinks(pageNumber) {
     const startIndex = (pageNumber - 1) * linksPerPage;
@@ -21,10 +22,18 @@ $(function () {
   function generatePaginationButtons() {
     paginationContainer.empty();
 
-    const createButton = (label, onclick, icon) =>
-      `<button class="btn btn-sm btn-outline-secondary" ${
+    const createButton = (label, onclick, icon, isActive = false) =>
+      `<button class="btn btn-sm btn-outline-secondary ${
+        isActive ? "active" : ""
+      }" ${
         onclick ? `onclick="${onclick}"` : "disabled"
       }>${icon} ${label}</button>`;
+
+    const startPage = Math.max(
+      1,
+      currentPage - Math.floor(maxPaginationButtons / 2)
+    );
+    const endPage = Math.min(totalPages, startPage + maxPaginationButtons - 1);
 
     paginationContainer.append(
       createButton(
@@ -41,8 +50,11 @@ $(function () {
       )
     );
 
-    for (let i = 1; i <= totalPages; i++) {
-      paginationContainer.append(createButton(i, `changePage(${i})`, ""));
+    for (let i = startPage; i <= endPage; i++) {
+      const isActive = i === currentPage;
+      paginationContainer.append(
+        createButton(i, `changePage(${i})`, "", isActive)
+      );
     }
 
     paginationContainer.append(
