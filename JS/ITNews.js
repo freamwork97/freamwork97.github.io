@@ -45,6 +45,7 @@ $(function () {
     '<a href="https://kr.investing.com/news/stock-market-news/article-992777">\'오픈AI\' 올트먼, 경계현 삼성전자 사장 만날 듯…"신 AI 동맹 구축"</a>',
     "<a href=\"https://www.aitimes.com/news/articleView.html?idxno=156709\">챗봇이 텍스트를 '이해'할 수 있다고 주장하는 논문 등장</a>",
     "<a href='https://www.aitimes.com/news/articleView.html?idxno=156960'>허깅 페이스, 오픈 소스 'AI 챗봇 메이커' 출시...'GPT 빌더'와 경쟁</a>",
+    "<a href='https://www.aitimes.com/news/articleView.html?idxno=157101'>엔비디아, 'GPU 대안 AI칩'까지 제작 지원한다</a>",
     // Add your links here
   ];
 
