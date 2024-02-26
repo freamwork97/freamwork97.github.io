@@ -43,6 +43,9 @@ const links = [
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=31811'>이재용, 무죄·무죄·무죄에 삼성 '안도'…경제계도 일제히 '환영'</a>",
   "<a href='https://www.fnnews.com/news/202402041903211092'>뿌리째 흔들린 도요타… 품질 사기 부른 '상명하복 고질병' [글로벌 리포트]</a>",
   "<a href='https://n.news.naver.com/mnews/article/215/0001150024?sid=101'>'순익 128조' 버핏…日상사·옥시덴탈 \"무기한 보유\"</a>",
+  "<a href='https://kr.investing.com/news/stock-market-news/article-1011054'>워런 버핏의 버크셔해서웨이 현금보유 223조 사상 최대···“국내외 투자할 기업이 없다”</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014527083?rc=N&ntype=RANKING'>자사주 소각·배당 기업에 '밸류업' 稅혜택…상반기 중 발표(종합)</a>",
+  "<a href='https://kr.investing.com/news/stock-market-news/article-432SI-1010636'>마이크로소프트 및 오픈AI가 지원하는 로봇 스타트업, 베조스와 엔비디아로부터 투자 확보 - 블룸버그뉴스</a>",
   // Add your links here
 ];
 
