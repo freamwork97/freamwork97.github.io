@@ -46,6 +46,11 @@ const links = [
   "<a href='https://kr.investing.com/news/stock-market-news/article-1011054'>워런 버핏의 버크셔해서웨이 현금보유 223조 사상 최대···“국내외 투자할 기업이 없다”</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014527083?rc=N&ntype=RANKING'>자사주 소각·배당 기업에 '밸류업' 稅혜택…상반기 중 발표(종합)</a>",
   "<a href='https://kr.investing.com/news/stock-market-news/article-432SI-1010636'>마이크로소프트 및 오픈AI가 지원하는 로봇 스타트업, 베조스와 엔비디아로부터 투자 확보 - 블룸버그뉴스</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=35699'>美 6월 금리인하 기대감↑…\"한국은 7~8월 전망\"</a>",
+  "<a href='https://www.moneys.co.kr/article/2024031210472573657'>[특징주] 탑머티리얼, 테슬라 LFP 배터리 전면 적용 소식에 국내 유일 개발 완료 기업 '부각'</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=35624'>'꿈의 배터리' 개발 본격 시작…배터리 3사 뭉친다</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=35685'>천장 뚫은 비트코인…돈나무언니 \"150만달러도 가능\"</a>",
+  "<a href='https://decenter.kr/NewsView/2D6LWFIAH8/GZ0304'>도널드 트럼프 “가상자산은 일종의 화폐, 당선되면 수용”</a>",
   // Add your links here
 ];
 
