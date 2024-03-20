@@ -45,6 +45,7 @@ const links = [
   "<a href=\"https://www.aitimes.com/news/articleView.html?idxno=156709\">챗봇이 텍스트를 '이해'할 수 있다고 주장하는 논문 등장</a>",
   "<a href='https://www.aitimes.com/news/articleView.html?idxno=156960'>허깅 페이스, 오픈 소스 'AI 챗봇 메이커' 출시...'GPT 빌더'와 경쟁</a>",
   "<a href='https://www.aitimes.com/news/articleView.html?idxno=157101'>엔비디아, 'GPU 대안 AI칩'까지 제작 지원한다</a>",
+  "<a href='https://www.yna.co.kr/view/AKR20240320005500091?input=1195m'>젠슨 황 엔비디아 CEO \"삼성전자 HBM 테스트 중…기대 크다\"(종합)</a>",
   // Add your links here
 ];
 

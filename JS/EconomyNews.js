@@ -51,6 +51,8 @@ const links = [
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=35624'>'꿈의 배터리' 개발 본격 시작…배터리 3사 뭉친다</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=35685'>천장 뚫은 비트코인…돈나무언니 \"150만달러도 가능\"</a>",
   "<a href='https://decenter.kr/NewsView/2D6LWFIAH8/GZ0304'>도널드 트럼프 “가상자산은 일종의 화폐, 당선되면 수용”</a>",
+  "<a href='https://www.news1.kr/articles/5356305'>삼성전자 주주들의 '응원·걱정' 교차…'주주와의 대화' 첫 시도[주총]</a>",
+  "<a href='https://www.mk.co.kr/news/stock/10968541'>금값 사상 최고가 행진…금ETF 수익률 급등</a>",
   // Add your links here
 ];
 
