@@ -53,6 +53,8 @@ const links = [
   "<a href='https://decenter.kr/NewsView/2D6LWFIAH8/GZ0304'>도널드 트럼프 “가상자산은 일종의 화폐, 당선되면 수용”</a>",
   "<a href='https://www.news1.kr/articles/5356305'>삼성전자 주주들의 '응원·걱정' 교차…'주주와의 대화' 첫 시도[주총]</a>",
   "<a href='https://www.mk.co.kr/news/stock/10968541'>금값 사상 최고가 행진…금ETF 수익률 급등</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=36688'>\"수도권 30% 시차출근제 도입시 양평고속도로 13개 건설 효과“...인천시, 도시 재창조 나선다 [출근길 한국시티 핫이슈]</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=36709'>마이너스금리 해제한 日…10월 추가 인상 가능성</a>",
   // Add your links here
 ];
 
