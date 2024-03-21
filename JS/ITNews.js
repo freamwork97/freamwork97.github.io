@@ -47,6 +47,7 @@ const links = [
   "<a href='https://www.aitimes.com/news/articleView.html?idxno=157101'>엔비디아, 'GPU 대안 AI칩'까지 제작 지원한다</a>",
   "<a href='https://www.yna.co.kr/view/AKR20240320005500091?input=1195m'>젠슨 황 엔비디아 CEO \"삼성전자 HBM 테스트 중…기대 크다\"(종합)</a>",
   "<a href='https://news.skhynix.co.kr/post/gtc2024-review'>엔비디아 ‘GTC 2024’ 찾은 SK하이닉스, “AI 메모리 솔루션의 미래 선도한다”</a>",
+  "<a href='https://view.asiae.co.kr/article/2024032113580350964'>인스웨이브시스템즈, ‘2024 금융 이노베이션 컨퍼런스’ 개최</a>",
   // Add your links here
 ];
 
