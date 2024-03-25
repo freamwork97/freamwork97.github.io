@@ -55,6 +55,7 @@ const links = [
   "<a href='https://www.mk.co.kr/news/stock/10968541'>금값 사상 최고가 행진…금ETF 수익률 급등</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=36688'>\"수도권 30% 시차출근제 도입시 양평고속도로 13개 건설 효과“...인천시, 도시 재창조 나선다 [출근길 한국시티 핫이슈]</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=36709'>마이너스금리 해제한 日…10월 추가 인상 가능성</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37059'>6개 은행 홍콩ELS 손실 배상액 2조원 전망…배상 규모 이달 중 확정</a>",
   // Add your links here
 ];
 
