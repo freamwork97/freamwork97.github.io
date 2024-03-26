@@ -56,6 +56,7 @@ const links = [
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=36688'>\"수도권 30% 시차출근제 도입시 양평고속도로 13개 건설 효과“...인천시, 도시 재창조 나선다 [출근길 한국시티 핫이슈]</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=36709'>마이너스금리 해제한 日…10월 추가 인상 가능성</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37059'>6개 은행 홍콩ELS 손실 배상액 2조원 전망…배상 규모 이달 중 확정</a>",
+  "<a href='https://news.einfomax.co.kr/news/articleView.html?idxno=4303300'>삼성-네이버 AI반도체 '1조' 빅딜 막전막후…'공동 개발 후 공급 계약'</a>",
   // Add your links here
 ];
 
