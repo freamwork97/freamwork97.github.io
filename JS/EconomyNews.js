@@ -61,6 +61,7 @@ const links = [
   "<a href='https://www.joongang.co.kr/article/25238180'>[단독] '反엔비디아' 동맹…인텔, 네이버에 먼저 손 내밀었다</a>",
   "<a href='https://zdnet.co.kr/view/?no=20240327005752'>AI PC 생태계 확대 나선 인텔 \"중소 개발자 지원 강화\"</a>",
   "<a href='https://biz.sbs.co.kr/article/20000163206?division=NAVER'>'쿠다'가 뭐길래…구글·인텔·퀄컴 뭉쳐 '킹비디아'에 맞선다</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37635'>삼성전자 지난해 반도체 매출 3위로 '뚝'…인텔·엔비디아에 앞자리 내줘</a>",
   // Add your links here
 ];
 
