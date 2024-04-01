@@ -49,6 +49,7 @@ const links = [
   "<a href='https://news.skhynix.co.kr/post/gtc2024-review'>엔비디아 ‘GTC 2024’ 찾은 SK하이닉스, “AI 메모리 솔루션의 미래 선도한다”</a>",
   "<a href='https://view.asiae.co.kr/article/2024032113580350964'>인스웨이브시스템즈, ‘2024 금융 이노베이션 컨퍼런스’ 개최</a>",
   "<a href='https://www.news1.kr/articles/?5362183'>삼성 '엑시노스' 생태계 확장…\"폴더블폰에도 최초 탑재\"</a>",
+  "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37923'>파운드리 키우는 인텔…AI발 반도체 '전쟁'</a>",
   // Add your links here
 ];
 
