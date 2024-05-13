@@ -9,3 +9,7 @@ $(function () {
 $(function () {
   $("#NewsNavi").load("../Navi/NewsNavi.html");
 });
+
+$(function () {
+  $("#ProjectNavi").load("../Navi/ProjectNavi.html");
+});
