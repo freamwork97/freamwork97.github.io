@@ -50,6 +50,7 @@ const links = [
   "<a href='https://view.asiae.co.kr/article/2024032113580350964'>인스웨이브시스템즈, ‘2024 금융 이노베이션 컨퍼런스’ 개최</a>",
   "<a href='https://www.news1.kr/articles/?5362183'>삼성 '엑시노스' 생태계 확장…\"폴더블폰에도 최초 탑재\"</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37923'>파운드리 키우는 인텔…AI발 반도체 '전쟁'</a>",
+  "<a href='https://www.itworld.co.kr/news/337509'>글로벌 칼럼 | AI 글래스로 현실화된 멀티모달 AI의 파급력</a>",
   // Add your links here
 ];
 
