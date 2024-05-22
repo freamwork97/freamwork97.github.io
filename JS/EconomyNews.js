@@ -64,6 +64,8 @@ const links = [
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37635'>삼성전자 지난해 반도체 매출 3위로 '뚝'…인텔·엔비디아에 앞자리 내줘</a>",
   "<a href='https://www.moneys.co.kr/article/2024051814321265389'>美 128년 역사 '다우지수' 첫 4만선 뚫었다</a>",
   "<a href='https://www.hankyung.com/article/2024052247205'>유럽은행총재 \"6월 금리인상 가능성 높다\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/215/0001162971?sid=101'>국민연금發 쇼크…\"6년뒤 주식시장 충격\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014701637?rc=N&ntype=RANKING'>1기 신도시 '재건축 첫타자' 2.6만가구+α…분당 최대 1.2만가구</a>",
   // Add your links here
 ];
 
