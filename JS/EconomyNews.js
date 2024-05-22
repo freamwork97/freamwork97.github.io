@@ -63,6 +63,7 @@ const links = [
   "<a href='https://biz.sbs.co.kr/article/20000163206?division=NAVER'>'쿠다'가 뭐길래…구글·인텔·퀄컴 뭉쳐 '킹비디아'에 맞선다</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37635'>삼성전자 지난해 반도체 매출 3위로 '뚝'…인텔·엔비디아에 앞자리 내줘</a>",
   "<a href='https://www.moneys.co.kr/article/2024051814321265389'>美 128년 역사 '다우지수' 첫 4만선 뚫었다</a>",
+  "<a href='https://www.hankyung.com/article/2024052247205'>유럽은행총재 \"6월 금리인상 가능성 높다\"</a>",
   // Add your links here
 ];
 

@@ -51,6 +51,7 @@ const links = [
   "<a href='https://www.news1.kr/articles/?5362183'>삼성 '엑시노스' 생태계 확장…\"폴더블폰에도 최초 탑재\"</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37923'>파운드리 키우는 인텔…AI발 반도체 '전쟁'</a>",
   "<a href='https://www.itworld.co.kr/news/337509'>글로벌 칼럼 | AI 글래스로 현실화된 멀티모달 AI의 파급력</a>",
+  "<a href='https://n.news.naver.com/mnews/article/277/0005421602?sid=101'>[2024 미래기업포럼]HD현대 \"그룹 내 AI 솔루션 확대로 글로벌 선도 기업 도약\"</a>",
   // Add your links here
 ];
 
