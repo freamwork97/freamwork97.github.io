@@ -66,6 +66,8 @@ const links = [
   "<a href='https://www.hankyung.com/article/2024052247205'>유럽은행총재 \"6월 금리인상 가능성 높다\"</a>",
   "<a href='https://n.news.naver.com/mnews/article/215/0001162971?sid=101'>국민연금發 쇼크…\"6년뒤 주식시장 충격\"</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014701637?rc=N&ntype=RANKING'>1기 신도시 '재건축 첫타자' 2.6만가구+α…분당 최대 1.2만가구</a>",
+  "<a href='https://n.news.naver.com/article/016/0002312851?sid=101'>[속보] 美 증권거래위, 이더리움 현물 ETF 상장 승인 [투자360]</a>",
+  "<a href='https://n.news.naver.com/article/011/0004344865?sid=104'>中 반도체업체 SMIC, 파운드리 점유율 세계 3위로</a>",
   // Add your links here
 ];
 
