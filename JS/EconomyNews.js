@@ -68,6 +68,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014701637?rc=N&ntype=RANKING'>1기 신도시 '재건축 첫타자' 2.6만가구+α…분당 최대 1.2만가구</a>",
   "<a href='https://n.news.naver.com/article/016/0002312851?sid=101'>[속보] 美 증권거래위, 이더리움 현물 ETF 상장 승인 [투자360]</a>",
   "<a href='https://n.news.naver.com/article/011/0004344865?sid=104'>中 반도체업체 SMIC, 파운드리 점유율 세계 3위로</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014716799?rc=N&ntype=RANKING'>내달 개인투자용 국채 첫 판매…연간 1억원까지 구매 가능</a>",
   // Add your links here
 ];
 
