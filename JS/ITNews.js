@@ -52,7 +52,9 @@ const links = [
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=37923'>파운드리 키우는 인텔…AI발 반도체 '전쟁'</a>",
   "<a href='https://www.itworld.co.kr/news/337509'>글로벌 칼럼 | AI 글래스로 현실화된 멀티모달 AI의 파급력</a>",
   "<a href='https://n.news.naver.com/mnews/article/277/0005421602?sid=101'>[2024 미래기업포럼]HD현대 \"그룹 내 AI 솔루션 확대로 글로벌 선도 기업 도약\"</a>",
-  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=518433&page=2&total=173801'>퀄컴, AI 허브에 스냅드래곤 X 시리즈 플랫폼 지원 </a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=518433&page=2&total=173801'>퀄컴, AI 허브에 스냅드래곤 X 시리즈 플랫폼 지원</a>",
+  "<a href='https://n.news.naver.com/article/030/0003210408?sid=105'>퀄리타스반도체, 반도체 전설 짐 켈러 '텐스토렌트'에 20억 투자</a>",
+  "<a href='https://www.greened.kr/news/articleView.html?idxno=314718'>삼성SDI 전고체 2차전지 적층 기술 특허 공개...'꿈의 전고체 배터리' 어디까지 왔나?</a>",
   // Add your links here
 ];
 
