@@ -55,6 +55,9 @@ const links = [
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=518433&page=2&total=173801'>퀄컴, AI 허브에 스냅드래곤 X 시리즈 플랫폼 지원</a>",
   "<a href='https://n.news.naver.com/article/030/0003210408?sid=105'>퀄리타스반도체, 반도체 전설 짐 켈러 '텐스토렌트'에 20억 투자</a>",
   "<a href='https://www.greened.kr/news/articleView.html?idxno=314718'>삼성SDI 전고체 2차전지 적층 기술 특허 공개...'꿈의 전고체 배터리' 어디까지 왔나?</a>",
+  "<a href='https://www.aitimes.com/news/articleView.html?idxno=160371'>\"애플, 10일 WWDC서 오픈AI 계약 발표\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/022/0003939417'>오픈AI·구글 직원들 “AI 통제 못하면 인간 멸종”</a>",
+  "<a href='https://ddaily.co.kr/page/view/2024060101491482216'>인텔 루나레이크, NPU 성능 3배↑ '자신만만'…왜? [컴퓨텍스 2024]</a>",
   // Add your links here
 ];
 
