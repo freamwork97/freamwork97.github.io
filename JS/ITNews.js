@@ -58,6 +58,10 @@ const links = [
   "<a href='https://www.aitimes.com/news/articleView.html?idxno=160371'>\"애플, 10일 WWDC서 오픈AI 계약 발표\"</a>",
   "<a href='https://n.news.naver.com/mnews/article/022/0003939417'>오픈AI·구글 직원들 “AI 통제 못하면 인간 멸종”</a>",
   "<a href='https://ddaily.co.kr/page/view/2024060101491482216'>인텔 루나레이크, NPU 성능 3배↑ '자신만만'…왜? [컴퓨텍스 2024]</a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=520539'>오픈AI \"인공지능 사고 해석 가능하다\"</a>",
+  "<a href='https://www.thelec.kr/news/articleView.html?idxno=28390'>삼성전자 “HBM 16단부터 하이브리드 본딩 필수”</a>",
+  "<a href='https://n.news.naver.com/article/138/0002174936?sid=105'>‘LG-히타치’ 합작 HLDS, 하반기 SK하이닉스 낸드 받아 ‘슈퍼멀티’ SSD 출사표 [현장에선]</a>",
+  "<a href='https://daily.hankooki.com/news/articleView.html?idxno=1092247'>삼성디스플레이, 아이패드 프로용 OLED 양산 정상궤도</a>",
   // Add your links here
 ];
 
