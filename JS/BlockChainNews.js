@@ -5,6 +5,7 @@ const links = [
   "<a href='https://decenter.kr/NewsView/2D6QH7FP8W/GZ0304'>JP모건 “비트코인, 조정 후 과매수 여전···4만2000弗까지 떨어진다”</a>",
   "<a href='https://bloomingbit.io/feed/news/68373'>“아발란체, 컨센서스 프로토콜 기반 가장 빠른 블록체인…속도가 곧 사용성”</a>",
   "<a href='https://g-enews.com/view.php?ud=2024052405440039056b49b9d1da_1'>미 하원, 공화당 주도로 디지털화폐(CBDC) 발행 금지 법안 가결</a>",
+  "<a href='https://game.donga.com/112519/'>“한눈에 보는 블록체인의 미래”, 대한민국 NFT/블록체인 게임 컨퍼런스 D-1</a>",
   // Add your links here
 ];
 
