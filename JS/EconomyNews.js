@@ -69,6 +69,8 @@ const links = [
   "<a href='https://n.news.naver.com/article/016/0002312851?sid=101'>[속보] 美 증권거래위, 이더리움 현물 ETF 상장 승인 [투자360]</a>",
   "<a href='https://n.news.naver.com/article/011/0004344865?sid=104'>中 반도체업체 SMIC, 파운드리 점유율 세계 3위로</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014716799?rc=N&ntype=RANKING'>내달 개인투자용 국채 첫 판매…연간 1억원까지 구매 가능</a>",
+  "<a href='https://v.daum.net/v/20240621102048760'>환율 1390원선 넘자…당국, 외환스와프 증액 대응(종합)</a>",
+  "<a href='https://n.news.naver.com/mnews/article/031/0000846768'>\"라인야후 日 인프라로\" 주문에 손정의 \"책임지고 하겠다\"</a>",
   // Add your links here
 ];
 

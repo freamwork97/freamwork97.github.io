@@ -62,6 +62,8 @@ const links = [
   "<a href='https://www.thelec.kr/news/articleView.html?idxno=28390'>삼성전자 “HBM 16단부터 하이브리드 본딩 필수”</a>",
   "<a href='https://n.news.naver.com/article/138/0002174936?sid=105'>‘LG-히타치’ 합작 HLDS, 하반기 SK하이닉스 낸드 받아 ‘슈퍼멀티’ SSD 출사표 [현장에선]</a>",
   "<a href='https://daily.hankooki.com/news/articleView.html?idxno=1092247'>삼성디스플레이, 아이패드 프로용 OLED 양산 정상궤도</a>",
+  "<a href='https://www.etoday.co.kr/news/view/2371705'>[단독] 낸드 차세대 시장 연다… 삼성전자, 하반기 9세대 탑재 SSD 신제품 출시</a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=522285'>거침없는 엔비디아 영토 확장...클라우드 이어 서버 제조사까지 위협</a>",
   // Add your links here
 ];
 
