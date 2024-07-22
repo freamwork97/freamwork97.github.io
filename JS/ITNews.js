@@ -65,6 +65,7 @@ const links = [
   "<a href='https://www.etoday.co.kr/news/view/2371705'>[단독] 낸드 차세대 시장 연다… 삼성전자, 하반기 9세대 탑재 SSD 신제품 출시</a>",
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=522285'>거침없는 엔비디아 영토 확장...클라우드 이어 서버 제조사까지 위협</a>",
   "<a href='https://v.daum.net/v/20240708082917410'>KAIST 연구진 일냈다…“엔비디아 독주 막을 신기술”</a>",
+  "<a href='https://n.news.naver.com/mnews/article/030/0003225529'>'고성능 반도체 기판 두각' 삼성전기, 퀄컴 이어 AMD에 FC-BGA 공급</a>",
   // Add your links here
 ];
 
