@@ -71,6 +71,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014716799?rc=N&ntype=RANKING'>내달 개인투자용 국채 첫 판매…연간 1억원까지 구매 가능</a>",
   "<a href='https://v.daum.net/v/20240621102048760'>환율 1390원선 넘자…당국, 외환스와프 증액 대응(종합)</a>",
   "<a href='https://n.news.naver.com/mnews/article/031/0000846768'>\"라인야후 日 인프라로\" 주문에 손정의 \"책임지고 하겠다\"</a>",
+  "<a href='https://n.news.naver.com/article/015/0005013375?sid=101'>\"경쟁자에서 협력자로\"…삼성·미디어텍 반도체 '밀월'</a>",
   // Add your links here
 ];
 
