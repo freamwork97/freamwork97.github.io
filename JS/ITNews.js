@@ -66,6 +66,7 @@ const links = [
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=522285'>거침없는 엔비디아 영토 확장...클라우드 이어 서버 제조사까지 위협</a>",
   "<a href='https://v.daum.net/v/20240708082917410'>KAIST 연구진 일냈다…“엔비디아 독주 막을 신기술”</a>",
   "<a href='https://n.news.naver.com/mnews/article/030/0003225529'>'고성능 반도체 기판 두각' 삼성전기, 퀄컴 이어 AMD에 FC-BGA 공급</a>",
+  "<a href='https://n.news.naver.com/article/030/0003226290?sid=105'>'제조 무인화 실현' 삼성전자, 생기연 내 제조로봇팀 신설</a>",
   // Add your links here
 ];
 
