@@ -72,6 +72,8 @@ const links = [
   "<a href='https://v.daum.net/v/20240621102048760'>환율 1390원선 넘자…당국, 외환스와프 증액 대응(종합)</a>",
   "<a href='https://n.news.naver.com/mnews/article/031/0000846768'>\"라인야후 日 인프라로\" 주문에 손정의 \"책임지고 하겠다\"</a>",
   "<a href='https://n.news.naver.com/article/015/0005013375?sid=101'>\"경쟁자에서 협력자로\"…삼성·미디어텍 반도체 '밀월'</a>",
+  "<a href='https://www.etnews.com/20240724000286'>'비수기에도 아이폰15 선전' LG이노텍, 2분기 영업익 726% 급증'</a>",
+  "<a href='https://n.news.naver.com/mnews/article/003/0012690049'>TSMC, 미중 불확실성에 '긴급주문' 몰린다…삼성전자는?</a>",
   // Add your links here
 ];
 
