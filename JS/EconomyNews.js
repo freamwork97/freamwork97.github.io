@@ -74,6 +74,7 @@ const links = [
   "<a href='https://n.news.naver.com/article/015/0005013375?sid=101'>\"경쟁자에서 협력자로\"…삼성·미디어텍 반도체 '밀월'</a>",
   "<a href='https://www.etnews.com/20240724000286'>'비수기에도 아이폰15 선전' LG이노텍, 2분기 영업익 726% 급증'</a>",
   "<a href='https://n.news.naver.com/mnews/article/003/0012690049'>TSMC, 미중 불확실성에 '긴급주문' 몰린다…삼성전자는?</a>",
+  "<a href='https://n.news.naver.com/article/081/0003470549?type=breakingnews'>[속보] “삼성전자 HBM3E 8단, 엔비디아 퀄테스트 통과”</a>",
   // Add your links here
 ];
 
