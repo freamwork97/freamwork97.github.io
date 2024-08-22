@@ -68,6 +68,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/030/0003225529'>'고성능 반도체 기판 두각' 삼성전기, 퀄컴 이어 AMD에 FC-BGA 공급</a>",
   "<a href='https://n.news.naver.com/article/030/0003226290?sid=105'>'제조 무인화 실현' 삼성전자, 생기연 내 제조로봇팀 신설</a>",
   "<a href='https://www.thelec.kr/news/articleView.html?idxno=29649'>'SK하이닉스, 구글 웨이모에 HBM2E 샘플 공급... \"완성차로 확대될 것\"</a>",
+  "<a href='https://n.news.naver.com/article/008/0005079697?sid=105'>[단독]구글 대항마 '퍼플렉시티' CEO 내달 방한…SKT와 협력안 발표</a>",
   // Add your links here
 ];
 
