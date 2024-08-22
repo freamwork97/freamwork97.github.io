@@ -70,11 +70,13 @@ const links = [
   "<a href='https://n.news.naver.com/article/011/0004344865?sid=104'>中 반도체업체 SMIC, 파운드리 점유율 세계 3위로</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014716799?rc=N&ntype=RANKING'>내달 개인투자용 국채 첫 판매…연간 1억원까지 구매 가능</a>",
   "<a href='https://v.daum.net/v/20240621102048760'>환율 1390원선 넘자…당국, 외환스와프 증액 대응(종합)</a>",
-  "<a href='https://n.news.naver.com/mnews/article/031/0000846768'>\"라인야후 日 인프라로\" 주문에 손정의 \"책임지고 하겠다\"</a>",
+  '<a href=\'https://n.news.naver.com/mnews/article/031/0000846768\'>"라인야후 日 인프라로" 주문에 손정의 "책임지고 하겠다"</a>',
   "<a href='https://n.news.naver.com/article/015/0005013375?sid=101'>\"경쟁자에서 협력자로\"…삼성·미디어텍 반도체 '밀월'</a>",
   "<a href='https://www.etnews.com/20240724000286'>'비수기에도 아이폰15 선전' LG이노텍, 2분기 영업익 726% 급증'</a>",
   "<a href='https://n.news.naver.com/mnews/article/003/0012690049'>TSMC, 미중 불확실성에 '긴급주문' 몰린다…삼성전자는?</a>",
   "<a href='https://n.news.naver.com/article/081/0003470549?type=breakingnews'>[속보] “삼성전자 HBM3E 8단, 엔비디아 퀄테스트 통과”</a>",
+  "<a href='https://n.news.naver.com/mnews/article/374/0000398589?sid=101'>단말기 따로, 통신비 따로…'완전자급제' 논의 급물살</a>",
+  "<a href='https://www.thelec.kr/news/articleView.html?idxno=29761'>단통법 폐지 입법 12월 마무리</a>",
   // Add your links here
 ];
 
