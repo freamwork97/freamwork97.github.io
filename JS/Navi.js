@@ -13,3 +13,7 @@ $(function () {
 $(function () {
   $("#ProjectNavi").load("../Navi/ProjectNavi.html");
 });
+
+$(function () {
+  $("#HeaderNavi").load("../Navi/HeaderNavi.html");
+});
