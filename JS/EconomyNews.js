@@ -77,6 +77,7 @@ const links = [
   "<a href='https://n.news.naver.com/article/081/0003470549?type=breakingnews'>[속보] “삼성전자 HBM3E 8단, 엔비디아 퀄테스트 통과”</a>",
   "<a href='https://n.news.naver.com/mnews/article/374/0000398589?sid=101'>단말기 따로, 통신비 따로…'완전자급제' 논의 급물살</a>",
   "<a href='https://www.thelec.kr/news/articleView.html?idxno=29761'>단통법 폐지 입법 12월 마무리</a>",
+  "<a href='https://v.daum.net/v/20240825074850883'>\"이러다 거덜난다\"…국가예산의 5배라니 '헉'</a>",
   // Add your links here
 ];
 
