@@ -79,6 +79,8 @@ const links = [
   "<a href='https://www.thelec.kr/news/articleView.html?idxno=29761'>단통법 폐지 입법 12월 마무리</a>",
   "<a href='https://v.daum.net/v/20240825074850883'>\"이러다 거덜난다\"…국가예산의 5배라니 '헉'</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014892861?rc=N&ntype=RANKING'>금리 올려도 주담대 급증…은행권, 결국 대출 만기·한도 줄인다(종합)</a>",
+  "<a href='https://n.news.naver.com/mnews/article/119/0002865427?sid=101'>LG, 8개 계열사 R&D 전문가 모여 미래성장동력 발굴 나서</a>",
+  "<a href='https://n.news.naver.com/mnews/article/016/0002354122'>호실적은 기본, ‘기대감’과 싸움 앞둔 엔비디아 2분기 실적…“글로벌 증시 방향성 가른다” [투자360]</a>",
   // Add your links here
 ];
 
