@@ -78,6 +78,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/374/0000398589?sid=101'>단말기 따로, 통신비 따로…'완전자급제' 논의 급물살</a>",
   "<a href='https://www.thelec.kr/news/articleView.html?idxno=29761'>단통법 폐지 입법 12월 마무리</a>",
   "<a href='https://v.daum.net/v/20240825074850883'>\"이러다 거덜난다\"…국가예산의 5배라니 '헉'</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014892861?rc=N&ntype=RANKING'>금리 올려도 주담대 급증…은행권, 결국 대출 만기·한도 줄인다(종합)</a>",
   // Add your links here
 ];
 
