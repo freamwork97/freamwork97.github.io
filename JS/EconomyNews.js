@@ -81,6 +81,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014892861?rc=N&ntype=RANKING'>금리 올려도 주담대 급증…은행권, 결국 대출 만기·한도 줄인다(종합)</a>",
   "<a href='https://n.news.naver.com/mnews/article/119/0002865427?sid=101'>LG, 8개 계열사 R&D 전문가 모여 미래성장동력 발굴 나서</a>",
   "<a href='https://n.news.naver.com/mnews/article/016/0002354122'>호실적은 기본, ‘기대감’과 싸움 앞둔 엔비디아 2분기 실적…“글로벌 증시 방향성 가른다” [투자360]</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014894721?rc=N&ntype=RANKING'>[1보] SK이노-E&S 합병안 주총 통과…찬성률 85.75%</a>",
   // Add your links here
 ];
 
