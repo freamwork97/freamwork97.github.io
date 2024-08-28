@@ -83,6 +83,8 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/016/0002354122'>호실적은 기본, ‘기대감’과 싸움 앞둔 엔비디아 2분기 실적…“글로벌 증시 방향성 가른다” [투자360]</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014894721?rc=N&ntype=RANKING'>[1보] SK이노-E&S 합병안 주총 통과…찬성률 85.75%</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014896821?rc=N&ntype=RANKING'>삼성SDI, GM과 美 전기차 배터리 합작법인 설립…35억달러 투자</a>",
+  "<a href='https://n.news.naver.com/mnews/article/003/0012754388'>유안타證 \"현대차, 예상보다 높은 수준 밸류업…목표가↑\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014899256?rc=N&ntype=RANKING'>AI칩 선두 엔비디아 분기매출 예상넘은 300억달러…시간외주가↓(종합)</a>",
   // Add your links here
 ];
 
