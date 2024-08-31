@@ -70,6 +70,7 @@ const links = [
   "<a href='https://www.thelec.kr/news/articleView.html?idxno=29649'>'SK하이닉스, 구글 웨이모에 HBM2E 샘플 공급... \"완성차로 확대될 것\"</a>",
   "<a href='https://n.news.naver.com/article/008/0005079697?sid=105'>[단독]구글 대항마 '퍼플렉시티' CEO 내달 방한…SKT와 협력안 발표</a>",
   "<a href='https://www.sisajournal-e.com/news/articleView.html?idxno=405020&page=2&total=14758'>삼성전자, 내년 낸드 투자 줄이고 D램 집중</a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=531819'>아마존, 차세대 알렉사 음성AI 10월 공개...앤트로픽 클로드 투입</a>",
   // Add your links here
 ];
 

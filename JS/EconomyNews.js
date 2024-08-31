@@ -85,6 +85,8 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014896821?rc=N&ntype=RANKING'>삼성SDI, GM과 美 전기차 배터리 합작법인 설립…35억달러 투자</a>",
   "<a href='https://n.news.naver.com/mnews/article/003/0012754388'>유안타證 \"현대차, 예상보다 높은 수준 밸류업…목표가↑\"</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014899256?rc=N&ntype=RANKING'>AI칩 선두 엔비디아 분기매출 예상넘은 300억달러…시간외주가↓(종합)</a>",
+  "<a href='https://n.news.naver.com/mnews/article/215/0001177676?sid=004'>TSMC 잡겠다더니…인텔, 결국 파운드리 분할 수순 [글로벌마켓 A/S]</a>",
+  "<a href='https://n.news.naver.com/mnews/article/009/0005358525'>‘삼성이 SK를 추격·인텔은 최악 구조조정’...엔비디아가 확바꾼 반도체 다이내믹스 [★★글로벌]</a>",
   // Add your links here
 ];
 
