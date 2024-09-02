@@ -87,6 +87,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014899256?rc=N&ntype=RANKING'>AI칩 선두 엔비디아 분기매출 예상넘은 300억달러…시간외주가↓(종합)</a>",
   "<a href='https://n.news.naver.com/mnews/article/215/0001177676?sid=004'>TSMC 잡겠다더니…인텔, 결국 파운드리 분할 수순 [글로벌마켓 A/S]</a>",
   "<a href='https://n.news.naver.com/mnews/article/009/0005358525'>‘삼성이 SK를 추격·인텔은 최악 구조조정’...엔비디아가 확바꾼 반도체 다이내믹스 [★★글로벌]</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014907057?rc=N&ntype=RANKING'>5대 은행 8월 가계대출·주담대 증가폭 모두 '역대 최대'</a>",
   // Add your links here
 ];
 
