@@ -90,6 +90,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014907057?rc=N&ntype=RANKING'>5대 은행 8월 가계대출·주담대 증가폭 모두 '역대 최대'</a>",
   "<a href='https://v.daum.net/v/20240902115536441'>‘수출 골든크로스’ 초읽기… 한국, 68년만에 일본 추월 보인다</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=56076'>국민연금 보험료율 9→13% 인상…세대별 차등 적용</a>",
+  "<a href='https://n.news.naver.com/article/015/0005030557'>\"최고의 HBM4 출시\"…삼성, TSMC와 맞손</a>",
   // Add your links here
 ];
 

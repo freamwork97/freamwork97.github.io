@@ -72,6 +72,7 @@ const links = [
   "<a href='https://www.sisajournal-e.com/news/articleView.html?idxno=405020&page=2&total=14758'>삼성전자, 내년 낸드 투자 줄이고 D램 집중</a>",
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=531819'>아마존, 차세대 알렉사 음성AI 10월 공개...앤트로픽 클로드 투입</a>",
   "<a href='https://n.news.naver.com/mnews/article/293/0000058154?sid=105'>AI 기업에 4천억 쏟은 SKT, 'AI 수익화' 전략은</a>",
+  "<a href='https://n.news.naver.com/article/092/0002344628?cds=news_edit'>인텔, 2나노 양산 백지화...\"1.8나노 공정에 집중\"</a>",
   // Add your links here
 ];
 
