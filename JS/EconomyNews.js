@@ -91,6 +91,8 @@ const links = [
   "<a href='https://v.daum.net/v/20240902115536441'>‘수출 골든크로스’ 초읽기… 한국, 68년만에 일본 추월 보인다</a>",
   "<a href='https://www.citytimes.co.kr/news/articleView.html?idxno=56076'>국민연금 보험료율 9→13% 인상…세대별 차등 적용</a>",
   "<a href='https://n.news.naver.com/article/015/0005030557'>\"최고의 HBM4 출시\"…삼성, TSMC와 맞손</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014915884?rc=N&ntype=RANKING'>반도체 등 수출호조에 7월 경상수지 91.3억달러 흑자</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014915779?rc=N&ntype=RANKING'>오픈AI \"챗GPT 기업용 버전 유료 이용자 100만명 돌파\"(종합)</a>",
   // Add your links here
 ];
 
