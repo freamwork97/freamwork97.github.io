@@ -73,6 +73,7 @@ const links = [
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=531819'>아마존, 차세대 알렉사 음성AI 10월 공개...앤트로픽 클로드 투입</a>",
   "<a href='https://n.news.naver.com/mnews/article/293/0000058154?sid=105'>AI 기업에 4천억 쏟은 SKT, 'AI 수익화' 전략은</a>",
   "<a href='https://n.news.naver.com/article/092/0002344628?cds=news_edit'>인텔, 2나노 양산 백지화...\"1.8나노 공정에 집중\"</a>",
+  "<a href='https://zdnet.co.kr/view/?no=20240907121854'>인텔의 위기…모빌아이·설계·파운드리 줄줄이 매각 검토</a>",
   // Add your links here
 ];
 
