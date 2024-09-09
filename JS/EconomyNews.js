@@ -93,6 +93,7 @@ const links = [
   "<a href='https://n.news.naver.com/article/015/0005030557'>\"최고의 HBM4 출시\"…삼성, TSMC와 맞손</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014915884?rc=N&ntype=RANKING'>반도체 등 수출호조에 7월 경상수지 91.3억달러 흑자</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014915779?rc=N&ntype=RANKING'>오픈AI \"챗GPT 기업용 버전 유료 이용자 100만명 돌파\"(종합)</a>",
+  "<a href='https://www.hankyung.com/article/2024090967275'>\"30년 만의 새로운 반도체 지수\"…나스닥, ASOX 출시(종합)</a>",
   // Add your links here
 ];
 
