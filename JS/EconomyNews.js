@@ -95,6 +95,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014915779?rc=N&ntype=RANKING'>오픈AI \"챗GPT 기업용 버전 유료 이용자 100만명 돌파\"(종합)</a>",
   "<a href='https://www.hankyung.com/article/2024090967275'>\"30년 만의 새로운 반도체 지수\"…나스닥, ASOX 출시(종합)</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014924227?rc=N&ntype=RANKING'>애플·구글, EU '과징금 폭탄' 소송 패소</a>",
+  "<a href='https://n.news.naver.com/mnews/article/031/0000868978?sid=101'>\"SW 기술 논의의 장\"…LG전자, 마곡서 'LG SDC 2024' 개최</a>",
   // Add your links here
 ];
 
