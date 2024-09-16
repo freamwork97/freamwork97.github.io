@@ -74,6 +74,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/293/0000058154?sid=105'>AI 기업에 4천억 쏟은 SKT, 'AI 수익화' 전략은</a>",
   "<a href='https://n.news.naver.com/article/092/0002344628?cds=news_edit'>인텔, 2나노 양산 백지화...\"1.8나노 공정에 집중\"</a>",
   "<a href='https://zdnet.co.kr/view/?no=20240907121854'>인텔의 위기…모빌아이·설계·파운드리 줄줄이 매각 검토</a>",
+  "<a href='https://www.businesspost.co.kr/BP?command=article_view&num=366024'>삼성전자 인텔 '파운드리 분사' 추진 쉽지 않아, TSMC와 경쟁에 큰 약점</a>",
   // Add your links here
 ];
 
