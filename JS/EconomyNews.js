@@ -99,6 +99,7 @@ const links = [
   "<a href='https://www.yna.co.kr/view/AKR20240914028100009'>\"인텔, 군사용 반도체 제조 美보조금 4조6천억원 받는다\"</a>",
   "<a href='https://news.einfomax.co.kr/news/articleView.html?idxno=4324996'>버핏의 유력 후계자였던 제인 부회장, 버크셔 지분 55% 매각</a>",
   "<a href='https://v.daum.net/v/20240915060013977'>장기 투자 하면 안되겠네… 코스피 절반 10년 새 시총 역주행</a>",
+  "<a href='https://n.news.naver.com/mnews/article/277/0005473037?sid=101'>[대만칩통신]TSMC '3나노' 수요가 공급 초과…국내외 동시 증산</a>",
   // Add your links here
 ];
 
