@@ -75,6 +75,7 @@ const links = [
   "<a href='https://n.news.naver.com/article/092/0002344628?cds=news_edit'>인텔, 2나노 양산 백지화...\"1.8나노 공정에 집중\"</a>",
   "<a href='https://zdnet.co.kr/view/?no=20240907121854'>인텔의 위기…모빌아이·설계·파운드리 줄줄이 매각 검토</a>",
   "<a href='https://www.businesspost.co.kr/BP?command=article_view&num=366024'>삼성전자 인텔 '파운드리 분사' 추진 쉽지 않아, TSMC와 경쟁에 큰 약점</a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533883'>기업용 메신저 슬랙, AI에이전트 대거 투입...세일즈포스 외 타사 에이전트도 지원</a>",
   // Add your links here
 ];
 
