@@ -76,6 +76,9 @@ const links = [
   "<a href='https://zdnet.co.kr/view/?no=20240907121854'>인텔의 위기…모빌아이·설계·파운드리 줄줄이 매각 검토</a>",
   "<a href='https://www.businesspost.co.kr/BP?command=article_view&num=366024'>삼성전자 인텔 '파운드리 분사' 추진 쉽지 않아, TSMC와 경쟁에 큰 약점</a>",
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533883'>기업용 메신저 슬랙, AI에이전트 대거 투입...세일즈포스 외 타사 에이전트도 지원</a>",
+  "<a href='https://n.news.naver.com/article/029/0002902800?sid=105'>골드만삭스 손들고 나간 애플카드, JP모건이 대체하나</a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533895&page=2&total=186132'>AI 모델 개발 비용 낮춰라....엔비디아, 옥토AI도 인수 추진</a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533898'>MS·블랙록, AI 데이터센터 투자 프로젝트 발표…130조원 규모</a>",
   // Add your links here
 ];
 
