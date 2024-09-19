@@ -79,6 +79,7 @@ const links = [
   "<a href='https://n.news.naver.com/article/029/0002902800?sid=105'>골드만삭스 손들고 나간 애플카드, JP모건이 대체하나</a>",
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533895&page=2&total=186132'>AI 모델 개발 비용 낮춰라....엔비디아, 옥토AI도 인수 추진</a>",
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533898'>MS·블랙록, AI 데이터센터 투자 프로젝트 발표…130조원 규모</a>",
+  "<a href='https://v.daum.net/v/20240919081049002'>“엔비디아 GPU 없이도” KAIST, AI 학습속도 104배 높였다</a>",
   // Add your links here
 ];
 

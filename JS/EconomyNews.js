@@ -103,6 +103,7 @@ const links = [
   "<a href='https://www.yna.co.kr/view/AKR20240917006100091'>인텔, 파운드리 사업부 분사…유럽 등 공장 건설 일시 중단</a>",
   "<a href='https://www.yna.co.kr/view/AKR20240917024200009?input=1195m'>인텔에 승리?…\"TSMC, ASML 차세대 노광장비 특별가로 곧 도입\"</a>",
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533868'>인텔, AWS 데이터센터칩 생산한다...유럽·아시아 공장 구축은 일단 보류</a>",
+  "<a href='https://n.news.naver.com/mnews/article/014/0005242391?sid=101'>구글에 물린 EU 반독점 과징금 2조원... 법원서 '취소'</a>",
   // Add your links here
 ];
 
