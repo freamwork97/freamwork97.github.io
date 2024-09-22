@@ -104,6 +104,9 @@ const links = [
   "<a href='https://www.yna.co.kr/view/AKR20240917024200009?input=1195m'>인텔에 승리?…\"TSMC, ASML 차세대 노광장비 특별가로 곧 도입\"</a>",
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533868'>인텔, AWS 데이터센터칩 생산한다...유럽·아시아 공장 구축은 일단 보류</a>",
   "<a href='https://n.news.naver.com/mnews/article/014/0005242391?sid=101'>구글에 물린 EU 반독점 과징금 2조원... 법원서 '취소'</a>",
+  "<a href='https://n.news.naver.com/article/001/0014939216?sid=101'>WSJ \"美 퀄컴, 인텔에 인수 제안…당국 합병심사 등 장애물\"</a>",
+  "<a href='https://www.chosun.com/economy/industry-company/2024/09/20/EVMESDDHW5GTXB4PPO5JHUK52Q/'>한국, 사상 첫 '美 최대 투자국' 됐다</a>",
+  "<a href='https://news.einfomax.co.kr/news/articleView.html?idxno=4325583'>버크셔, BofA 주식 또 팔았다…남은 지분율 10.8%</a>",
   // Add your links here
 ];
 
