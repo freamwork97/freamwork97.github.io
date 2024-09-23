@@ -107,6 +107,7 @@ const links = [
   "<a href='https://n.news.naver.com/article/001/0014939216?sid=101'>WSJ \"美 퀄컴, 인텔에 인수 제안…당국 합병심사 등 장애물\"</a>",
   "<a href='https://www.chosun.com/economy/industry-company/2024/09/20/EVMESDDHW5GTXB4PPO5JHUK52Q/'>한국, 사상 첫 '美 최대 투자국' 됐다</a>",
   "<a href='https://news.einfomax.co.kr/news/articleView.html?idxno=4325583'>버크셔, BofA 주식 또 팔았다…남은 지분율 10.8%</a>",
+  "<a href='https://www.donga.com/news/Economy/article/all/20240922/130075981/2'>공매도 금지 11개월… ‘韓 관찰대상국’ 경고장 우려</a>",
   // Add your links here
 ];
 
