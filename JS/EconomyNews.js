@@ -108,6 +108,8 @@ const links = [
   "<a href='https://www.chosun.com/economy/industry-company/2024/09/20/EVMESDDHW5GTXB4PPO5JHUK52Q/'>한국, 사상 첫 '美 최대 투자국' 됐다</a>",
   "<a href='https://news.einfomax.co.kr/news/articleView.html?idxno=4325583'>버크셔, BofA 주식 또 팔았다…남은 지분율 10.8%</a>",
   "<a href='https://www.donga.com/news/Economy/article/all/20240922/130075981/2'>공매도 금지 11개월… ‘韓 관찰대상국’ 경고장 우려</a>",
+  "<a href='https://n.news.naver.com/mnews/article/119/0002875690?sid=101'>'비둘기 날개' 펼친 금통위원…한은 기준금리 인하 '초읽기'</a>",
+  "<a href='https://www.viva100.com/main/view.php?key=20240924010006578'>코리아 밸류업 지수 발표…주주환원 등 평가해 100개 종목 선정</a>",
   // Add your links here
 ];
 
