@@ -110,6 +110,9 @@ const links = [
   "<a href='https://www.donga.com/news/Economy/article/all/20240922/130075981/2'>공매도 금지 11개월… ‘韓 관찰대상국’ 경고장 우려</a>",
   "<a href='https://n.news.naver.com/mnews/article/119/0002875690?sid=101'>'비둘기 날개' 펼친 금통위원…한은 기준금리 인하 '초읽기'</a>",
   "<a href='https://www.viva100.com/main/view.php?key=20240924010006578'>코리아 밸류업 지수 발표…주주환원 등 평가해 100개 종목 선정</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014949629?rc=N&ntype=RANKING'>尹대통령, 'AI 국가 총력전' 선포…\"2027년까지 3대 강국 도약\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014949251?rc=N&ntype=RANKING'>올해도 세수쇼크 '30조 마이너스'…2년 연속 역대급 펑크</a>",
+  "<a href='https://n.news.naver.com/article/021/0002661927?type=breakingnews'>[속보]고려아연·영풍정밀 공개매수가 상향에 동반 강세</a>",
   // Add your links here
 ];
 
