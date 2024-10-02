@@ -114,6 +114,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014949251?rc=N&ntype=RANKING'>올해도 세수쇼크 '30조 마이너스'…2년 연속 역대급 펑크</a>",
   "<a href='https://n.news.naver.com/article/021/0002661927?type=breakingnews'>[속보]고려아연·영풍정밀 공개매수가 상향에 동반 강세</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014955035?rc=N&ntype=RANKING'>'車·반도체 효과' 8월 산업생산 4개월만 반등…소비도 1.7%↑(종합)</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014959356?rc=N&ntype=RANKING'>\"삼성전자, 동남아·호주·뉴질랜드서 10% 감원 계획\"</a>",
   // Add your links here
 ];
 
