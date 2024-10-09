@@ -81,6 +81,8 @@ const links = [
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=533898'>MS·블랙록, AI 데이터센터 투자 프로젝트 발표…130조원 규모</a>",
   "<a href='https://v.daum.net/v/20240919081049002'>“엔비디아 GPU 없이도” KAIST, AI 학습속도 104배 높였다</a>",
   "<a href='https://www.aitimes.com/news/articleView.html?idxno=163954'>'소라' 개발하던 오픈AI 리더, 구글로 이직…”세계 모델 개발할 것”</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014970570?sid=104'>\"TSMC, 첨단 2나노 웨이퍼 장당 3만달러 책정\"…4·5 나노의 2배</a>",
+  "<a href='https://n.news.naver.com/mnews/article/092/0002347410'>국내 AI 반도체, 삼성·TSMC 파운드리 다각화</a>",
   // Add your links here
 ];
 
