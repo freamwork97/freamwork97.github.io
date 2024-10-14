@@ -117,6 +117,8 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014959356?rc=N&ntype=RANKING'>\"삼성전자, 동남아·호주·뉴질랜드서 10% 감원 계획\"</a>",
   "<a href='https://www.ajunews.com/view/20241004105618142'>삼성, 갤럭시 S25에 '엑시노스' 대신 '디멘시티' 투입하나</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014965955'>3분기 실적발표 임박…'HBM선두' SK하이닉스 영업익, 삼성 추월?</a>",
+  "<a href='https://www.hankyung.com/article/202410119223i'>950만주 또 팔아치운 버핏…'최애 은행주' 지분율 10% 깨졌다</a>",
+  "<a href='https://www.infostockdaily.co.kr/news/articleView.html?idxno=202284'>배달플랫폼-입점업체, 합의 도출 실패... 입장차만 확인</a>",
   // Add your links here
 ];
 
