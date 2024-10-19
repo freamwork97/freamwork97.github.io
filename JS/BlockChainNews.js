@@ -19,5 +19,15 @@ function displayLinks(pageNumber) {
   const endIndex = startIndex + linksPerPage;
   const pageLinks = links.slice(startIndex, endIndex);
 
-  linksContainer.html(`<li>${pageLinks.join("</li><hr><li>")}</li><hr>`);
+  const html = pageLinks
+    .map(
+      (link) => `
+    <li class="link-card">
+      ${link}
+    </li>
+  `
+    )
+    .join("");
+
+  linksContainer.html(`<ul class="link-list">${html}</ul>`);
 }
