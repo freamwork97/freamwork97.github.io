@@ -119,6 +119,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014965955'>3분기 실적발표 임박…'HBM선두' SK하이닉스 영업익, 삼성 추월?</a>",
   "<a href='https://www.hankyung.com/article/202410119223i'>950만주 또 팔아치운 버핏…'최애 은행주' 지분율 10% 깨졌다</a>",
   "<a href='https://www.infostockdaily.co.kr/news/articleView.html?idxno=202284'>배달플랫폼-입점업체, 합의 도출 실패... 입장차만 확인</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0014995217?rc=N&ntype=RANKING'>\"전기차, 2026년 내연차와 가격비슷\"…'캐즘' 배터리업계 볕드나</a>",
   // Add your links here
 ];
 
