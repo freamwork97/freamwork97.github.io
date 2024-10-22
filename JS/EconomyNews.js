@@ -120,6 +120,10 @@ const links = [
   "<a href='https://www.hankyung.com/article/202410119223i'>950만주 또 팔아치운 버핏…'최애 은행주' 지분율 10% 깨졌다</a>",
   "<a href='https://www.infostockdaily.co.kr/news/articleView.html?idxno=202284'>배달플랫폼-입점업체, 합의 도출 실패... 입장차만 확인</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014995217?rc=N&ntype=RANKING'>\"전기차, 2026년 내연차와 가격비슷\"…'캐즘' 배터리업계 볕드나</a>",
+  "<a href='https://www.mk.co.kr/news/business/11146022'>‘게임업계 연봉킹’ 택진이형 회사가 이럴수가…엔씨소프트, 고강도 구조조정</a>",
+  "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=538040'>유럽, 비트코인 ETF에 1000억달러 투자...역대 최고 수준</a>",
+  "<a href='https://m.mk.co.kr/news/business/11146455'>“보조금이 그렇게 중요했나”…생존 걸린 인텔, 삼성에 SOS 쳤다는데</a>",
+  "<a href='https://sedaily.com/NewsView/2DFNMGRLZR'>[단독] 거래소, 800개 종목 시간 외 단일가 매매 중단 검토</a>",
   // Add your links here
 ];
 
