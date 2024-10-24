@@ -124,6 +124,8 @@ const links = [
   "<a href='https://www.digitaltoday.co.kr/news/articleView.html?idxno=538040'>유럽, 비트코인 ETF에 1000억달러 투자...역대 최고 수준</a>",
   "<a href='https://m.mk.co.kr/news/business/11146455'>“보조금이 그렇게 중요했나”…생존 걸린 인텔, 삼성에 SOS 쳤다는데</a>",
   "<a href='https://sedaily.com/NewsView/2DFNMGRLZR'>[단독] 거래소, 800개 종목 시간 외 단일가 매매 중단 검토</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0015003449?rc=N&ntype=RANKING'>'AI 붐'이 가른 운명…SK하이닉스 영업이익, 삼성 반도체 제쳤다</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0015004152?rc=N&ntype=RANKING'>[2보] 현대차 3분기 영업이익 3조5천809억원…전년 대비 6.5%↓</a>",
   // Add your links here
 ];
 
