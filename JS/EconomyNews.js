@@ -126,6 +126,9 @@ const links = [
   "<a href='https://sedaily.com/NewsView/2DFNMGRLZR'>[단독] 거래소, 800개 종목 시간 외 단일가 매매 중단 검토</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0015003449?rc=N&ntype=RANKING'>'AI 붐'이 가른 운명…SK하이닉스 영업이익, 삼성 반도체 제쳤다</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0015004152?rc=N&ntype=RANKING'>[2보] 현대차 3분기 영업이익 3조5천809억원…전년 대비 6.5%↓</a>",
+  "<a href='https://www.ytn.co.kr/_ln/0104_202410250334045696'>IMF \"미 대선 이후 미중 무역갈등 심화하면 한국 큰 타격\"</a>",
+  "<a href='https://www.chosun.com/economy/money/2024/10/26/PMXYX7BV6VFUNLTOVNLCZ3WSCA/'>모건스탠리 \"우리가 틀렸다\" 하자… 증권사 또 '바보들 행진'</a>",
+  "<a href='https://econmingle.com/economy/u-s-sanctions-on-russian-minerals/'>러시아 막으려는 美, ‘초강수’ 내밀자… “어떡하죠” 현대차도 ‘술렁’</a>",
   // Add your links here
 ];
 
