@@ -129,6 +129,7 @@ const links = [
   "<a href='https://www.ytn.co.kr/_ln/0104_202410250334045696'>IMF \"미 대선 이후 미중 무역갈등 심화하면 한국 큰 타격\"</a>",
   "<a href='https://www.chosun.com/economy/money/2024/10/26/PMXYX7BV6VFUNLTOVNLCZ3WSCA/'>모건스탠리 \"우리가 틀렸다\" 하자… 증권사 또 '바보들 행진'</a>",
   "<a href='https://econmingle.com/economy/u-s-sanctions-on-russian-minerals/'>러시아 막으려는 美, ‘초강수’ 내밀자… “어떡하죠” 현대차도 ‘술렁’</a>",
+  "<a href='https://www.mk.co.kr/news/economy/11152795'>서민 돈줄은 다 막아놓고…세수 30조 펑크에 ‘환율방어’ 비상금까지 손 댄다</a>",
   // Add your links here
 ];
 
