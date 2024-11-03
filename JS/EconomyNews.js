@@ -131,6 +131,7 @@ const links = [
   "<a href='https://econmingle.com/economy/u-s-sanctions-on-russian-minerals/'>러시아 막으려는 美, ‘초강수’ 내밀자… “어떡하죠” 현대차도 ‘술렁’</a>",
   "<a href='https://www.mk.co.kr/news/economy/11152795'>서민 돈줄은 다 막아놓고…세수 30조 펑크에 ‘환율방어’ 비상금까지 손 댄다</a>",
   "<a href='https://n.news.naver.com/article/032/0003329901?type=breakingnews'>10월 수출 4.6% 증가…반도체·자동차 수출 역대 10월중 최대</a>",
+  "<a href='https://www.chosun.com/economy/industry-company/2024/11/02/ADCGZ3Y3JJFUHHBZ4TQBEYFVEY/'>엔비디아, 8일부터 다우평균 편입…인텔 25년 만에 제외</a>",
   // Add your links here
 ];
 
