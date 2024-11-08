@@ -133,6 +133,7 @@ const links = [
   "<a href='https://n.news.naver.com/article/032/0003329901?type=breakingnews'>10월 수출 4.6% 증가…반도체·자동차 수출 역대 10월중 최대</a>",
   "<a href='https://www.chosun.com/economy/industry-company/2024/11/02/ADCGZ3Y3JJFUHHBZ4TQBEYFVEY/'>엔비디아, 8일부터 다우평균 편입…인텔 25년 만에 제외</a>",
   "<a href='https://www.chosun.com/economy/auto/2024/11/03/HWVAAE6EZNHQ5IEJM5FNMO45EQ/'>현대트랜시스 파업 한 달째, 내부서도 우려...\"임금 손실 누가 책임지나\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0015034219?rc=N&ntype=RANKING'>\"바이든 행정부, 삼성 등과 반도체법 합의 마무리 서둘러\"</a>",
   // Add your links here
 ];
 
