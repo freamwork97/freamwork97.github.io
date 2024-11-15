@@ -135,6 +135,7 @@ const links = [
   "<a href='https://www.chosun.com/economy/auto/2024/11/03/HWVAAE6EZNHQ5IEJM5FNMO45EQ/'>현대트랜시스 파업 한 달째, 내부서도 우려...\"임금 손실 누가 책임지나\"</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0015034219?rc=N&ntype=RANKING'>\"바이든 행정부, 삼성 등과 반도체법 합의 마무리 서둘러\"</a>",
   "<a href='https://v.daum.net/v/20241112135146274'>모간스탠리·메릴린치 '불법 공매도' 과징금…전수조사 연내 마무리</a>",
+  "<a href='https://g-enews.com/article/Global-Biz/2024/11/2024110505304735304a01bf698f_1'>슈마컴 SMCI 끝내 \"뉴욕증시 상장폐지\"</a>",
   // Add your links here
 ];
 
