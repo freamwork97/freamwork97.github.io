@@ -136,6 +136,8 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0015034219?rc=N&ntype=RANKING'>\"바이든 행정부, 삼성 등과 반도체법 합의 마무리 서둘러\"</a>",
   "<a href='https://v.daum.net/v/20241112135146274'>모간스탠리·메릴린치 '불법 공매도' 과징금…전수조사 연내 마무리</a>",
   "<a href='https://g-enews.com/article/Global-Biz/2024/11/2024110505304735304a01bf698f_1'>슈마컴 SMCI 끝내 \"뉴욕증시 상장폐지\"</a>",
+  "<a href='https://www.chosun.com/economy/tech_it/2024/11/17/7QVGBNJFVFHV5NNJEOQ5HNRBSQ/'>정치력 얻은 머스크, 오픈AI 때리는데 MS까지 함께 친다</a>",
+  "<a href='https://www.mk.co.kr/news/world/11169732'>“이제 정부에 손 그만 벌려라”…머스크, 비영리기구부터 손질한다</a>",
   // Add your links here
 ];
 

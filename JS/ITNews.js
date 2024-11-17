@@ -84,6 +84,7 @@ const links = [
   "<a href='https://n.news.naver.com/mnews/article/001/0014970570?sid=104'>\"TSMC, 첨단 2나노 웨이퍼 장당 3만달러 책정\"…4·5 나노의 2배</a>",
   "<a href='https://n.news.naver.com/mnews/article/092/0002347410'>국내 AI 반도체, 삼성·TSMC 파운드리 다각화</a>",
   "<a href='https://www.yna.co.kr/view/AKR20241011005451091'>美 반도체 기업 AMD, 새 AI 칩 공개…\"엔비디아 칩 능가\"(종합)</a>",
+  "<a href='https://www.itworld.co.kr/news/353560'>인텔, 13·14세대 코어 프로세서 충돌 문제로 집단 소송 직면</a>",
   // Add your links here
 ];
 
