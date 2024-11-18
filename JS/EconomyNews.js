@@ -138,6 +138,7 @@ const links = [
   "<a href='https://g-enews.com/article/Global-Biz/2024/11/2024110505304735304a01bf698f_1'>슈마컴 SMCI 끝내 \"뉴욕증시 상장폐지\"</a>",
   "<a href='https://www.chosun.com/economy/tech_it/2024/11/17/7QVGBNJFVFHV5NNJEOQ5HNRBSQ/'>정치력 얻은 머스크, 오픈AI 때리는데 MS까지 함께 친다</a>",
   "<a href='https://www.mk.co.kr/news/world/11169732'>“이제 정부에 손 그만 벌려라”…머스크, 비영리기구부터 손질한다</a>",
+  "<a href='https://n.news.naver.com/mnews/article/079/0003960096?sid=101'>“'반도체 태동지'서 새 다짐한 삼성전자 \"100년 향한 재도약\"</a>",
   // Add your links here
 ];
 
