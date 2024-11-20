@@ -139,6 +139,9 @@ const links = [
   "<a href='https://www.chosun.com/economy/tech_it/2024/11/17/7QVGBNJFVFHV5NNJEOQ5HNRBSQ/'>정치력 얻은 머스크, 오픈AI 때리는데 MS까지 함께 친다</a>",
   "<a href='https://www.mk.co.kr/news/world/11169732'>“이제 정부에 손 그만 벌려라”…머스크, 비영리기구부터 손질한다</a>",
   "<a href='https://n.news.naver.com/mnews/article/079/0003960096?sid=101'>“'반도체 태동지'서 새 다짐한 삼성전자 \"100년 향한 재도약\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0015056465?rc=N&ntype=RANKING'>석 달 새 한국 주식 16조원 내다 판 외국인…채권은 사들여</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0015056814?rc=N&ntype=RANKING'>IMF, 내년 韓경제 2.0% 성장 전망…\"하방리스크 크다\"</a>",
+  "<a href='https://n.news.naver.com/mnews/article/001/0015056731?rc=N&ntype=RANKING'>트럼프 1기 한미FTA 대표 \"경상수지·통화도 관세부과 기준될것\"</a>",
   // Add your links here
 ];
 
