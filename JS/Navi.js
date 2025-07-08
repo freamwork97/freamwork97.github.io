@@ -1,5 +1,5 @@
 $(function () {
-  $("#IndexNavi").load("Navi/Navi.html");
+  $("#IndexNavi").load("/Navi/Navi.html");
 });
 
 $(function () {
