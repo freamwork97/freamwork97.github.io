@@ -1,4 +1,4 @@
-/* const links = [
+const links = [
   "<a href='http://www.digitaltoday.co.kr/news/articleView.html?idxno=494328'>구글클라우드, 국내 기업용 생성형 AI 공략 시동... '데이터 보안' 전진배치</a>",
   "<a href='https://n.news.naver.com/article/011/0004261480?sid=105'>역대 최강 '스냅드래곤' 탑재 갤럭시S24…'안드로이드 왕좌' 굳힌다[양철민의 아알못]</a>",
   '<a href="https://www.itworld.co.kr/news/313951">글로벌 칼럼 | 오픈소스가 여전히 엔터프라이즈 IT의 미래인 이유</a>',
@@ -86,29 +86,4 @@
   "<a href='https://www.yna.co.kr/view/AKR20241011005451091'>美 반도체 기업 AMD, 새 AI 칩 공개…\"엔비디아 칩 능가\"(종합)</a>",
   "<a href='https://www.itworld.co.kr/news/353560'>인텔, 13·14세대 코어 프로세서 충돌 문제로 집단 소송 직면</a>",
   // Add your links here
-]; */
-
-// links moved to ../JS/data/ITLinks.js
-
-const linksContainer = $("#links-container");
-const linksPerPage = 7;
-const totalPages = Math.ceil(links.length / linksPerPage);
-const maxPaginationButtons = 5; // Maximum number of pagination buttons to display
-
-function displayLinks(pageNumber) {
-  const startIndex = (pageNumber - 1) * linksPerPage;
-  const endIndex = startIndex + linksPerPage;
-  const pageLinks = links.slice(startIndex, endIndex);
-
-  const html = pageLinks
-    .map(
-      (link) => `
-    <li class="link-card">
-      ${link}
-    </li>
-  `
-    )
-    .join("");
-
-  linksContainer.html(`<ul class="link-list">${html}</ul>`);
-}
+];

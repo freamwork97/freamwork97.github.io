@@ -1,4 +1,4 @@
-/* const links = [
+const links = [
   "<a href='https://n.news.naver.com/article/016/0002223642?sid=101'>“비트코인 ETF 출시 임박에 기관들 선행매매…자금 유입세 더 빨라질 듯” [투자360]</a>",
   "<a href='https://n.news.naver.com/mnews/article/293/0000048930?sid=101'>美 10월 CPI 예상치 하회...'금리인상 종료' 기대감 커졌다</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0014332246?rc=N&ntype=RANKING'>'서울 편입론'까지 부른 신도시 교통난…광역철도망 연결이 관건</a>",
@@ -143,29 +143,4 @@
   "<a href='https://n.news.naver.com/mnews/article/001/0015056814?rc=N&ntype=RANKING'>IMF, 내년 韓경제 2.0% 성장 전망…\"하방리스크 크다\"</a>",
   "<a href='https://n.news.naver.com/mnews/article/001/0015056731?rc=N&ntype=RANKING'>트럼프 1기 한미FTA 대표 \"경상수지·통화도 관세부과 기준될것\"</a>",
   // Add your links here
-]; */
-
-// links moved to ../JS/data/EconomyLinks.js
-
-const linksContainer = $("#links-container");
-const linksPerPage = 7;
-const totalPages = Math.ceil(links.length / linksPerPage);
-const maxPaginationButtons = 5; // Maximum number of pagination buttons to display
-
-function displayLinks(pageNumber) {
-  const startIndex = (pageNumber - 1) * linksPerPage;
-  const endIndex = startIndex + linksPerPage;
-  const pageLinks = links.slice(startIndex, endIndex);
-
-  const html = pageLinks
-    .map(
-      (link) => `
-    <li class="link-card">
-      ${link}
-    </li>
-  `
-    )
-    .join("");
-
-  linksContainer.html(`<ul class="link-list">${html}</ul>`);
-}
+];
