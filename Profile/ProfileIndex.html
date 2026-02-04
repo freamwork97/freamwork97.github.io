@@ -12,26 +12,54 @@
   </head>
   <body>
     <div id="HeaderNavi"></div>
-    <div id="IndexNavi"></div>
 
     <main class="container my-4">
-      <section class="text-center shadow p-3 mb-5 bg-white rounded">
-        <h2>프로필</h2>
-        <p class="lead">이름: 정승용</p>
-        <p class="lead">소개: 개발을 좋아하는 QA 엔지니어</p>
-        <p class="lead">기술 스택: Python, FastAPI, MySQL, Github</p>
+      <div class="page-header">
+        <h1>프로필</h1>
+        <p>QA Engineer & Developer</p>
+      </div>
+
+      <section class="content-section profile-header">
+        <div class="profile-name">정승용</div>
+        <p class="profile-role">QA Engineer</p>
+        <p class="profile-bio">개발을 좋아하는 QA 엔지니어</p>
+        <div class="tag-list">
+          <span class="tag">Python</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Github</span>
+        </div>
       </section>
-      <section class="shadow p-3 mb-5 bg-white rounded">
-        <h2 class="text-center">경력</h2>
-        <p class="lead"><strong>QA 엔지니어</strong> (2024.12.11 ~ )</p>
+
+      <section class="content-section">
+        <h2>경력</h2>
+        <div class="info-row">
+          <span class="info-badge">현재</span>
+          <div>
+            <div class="info-title">QA 엔지니어</div>
+            <div class="info-sub">2024.12.11 ~ 현재</div>
+          </div>
+        </div>
       </section>
-      <section class="shadow p-3 mb-5 bg-white rounded">
-        <h2 class="text-center">학력</h2>
-        <p class="lead"><strong>건국대학교 컴퓨터공학과</strong> (2016 ~ 2023)</p>
+
+      <section class="content-section">
+        <h2>학력</h2>
+        <div class="info-row">
+          <span class="info-badge">대학</span>
+          <div>
+            <div class="info-title">건국대학교 컴퓨터공학과</div>
+            <div class="info-sub">2016 ~ 2023</div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="fixed-bottom bg-dark text-white text-center py-1">
-      <p style="font-size: 22px">&copy; windra</p>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 windra. Built with Passion.</p>
+      </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
