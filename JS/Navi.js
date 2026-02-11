@@ -1,8 +1,4 @@
 $(function () {
-  $("#IndexNavi").load("/Navi/Navi.html");
-});
-
-$(function () {
   $("#TISNavi").load("../Navi/TISNavi.html");
 });
 
