@@ -19,6 +19,7 @@
     <section class="hero-section text-center">
       <div class="container">
         <span class="accent-text">init session</span>
+        <p class="hero-typing"><span id="typing-text"></span><span class="cursor"></span></p>
         <h1 class="hero-title">Windra's Portfolio</h1>
         <p class="lead text-secondary mb-5" style="font-size: 0.9rem; line-height: 1.8;">
           <span style="color: var(--text-dim);">// </span>QA Engineer × Developer<br>
@@ -70,6 +71,42 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="JS/Navi.js"></script>
+  <script>
+    (function () {
+      const lines = [
+        '$ init portfolio...',
+        '✓ profile loaded',
+        '✓ projects indexed',
+        '✓ running test suite...',
+        '▸ all systems ready',
+      ];
+      const el = document.getElementById('typing-text');
+      let lineIdx = 0, charIdx = 0, deleting = false;
+
+      function tick() {
+        const current = lines[lineIdx];
+        if (!deleting) {
+          el.textContent = current.slice(0, ++charIdx);
+          if (charIdx === current.length) {
+            deleting = true;
+            setTimeout(tick, 1600);
+            return;
+          }
+          setTimeout(tick, 55);
+        } else {
+          el.textContent = current.slice(0, --charIdx);
+          if (charIdx === 0) {
+            deleting = false;
+            lineIdx = (lineIdx + 1) % lines.length;
+            setTimeout(tick, 300);
+            return;
+          }
+          setTimeout(tick, 28);
+        }
+      }
+      tick();
+    })();
+  </script>
 </body>
 
 </html>

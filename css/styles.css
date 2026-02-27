@@ -159,6 +159,17 @@ main {
   color: var(--pass-green);
 }
 
+.nav-link.active {
+  color: var(--text-primary) !important;
+  background: var(--bg-tertiary);
+  border-color: var(--border-main);
+}
+
+.nav-link.active::before {
+  content: '[✓]';
+  color: var(--pass-green);
+}
+
 @media (max-width: 991px) {
   .navbar::before {
     display: none;
@@ -256,20 +267,27 @@ main {
   line-height: 1.1;
 }
 
-.hero-title::before {
-  content: 'RUNNING TESTS... ';
-  display: block;
+.hero-typing {
   font-size: 0.9rem;
   color: var(--pass-green);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   font-weight: 400;
-  letter-spacing: 0.1em;
-  animation: typing 2s steps(20) infinite;
+  letter-spacing: 0.08em;
+  min-height: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
 }
 
-@keyframes typing {
-  0%, 100% { opacity: 0.4; }
-  50% { opacity: 1; }
+.hero-typing .cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1em;
+  background: var(--pass-green);
+  margin-left: 2px;
+  animation: blink 1s infinite;
+  vertical-align: middle;
 }
 
 /* ─── Hero Cards (Test Case Style) ─── */
