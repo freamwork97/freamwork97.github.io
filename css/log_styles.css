@@ -1,0 +1,144 @@
+/* ─── Global Log System for Hub Pages ─── */
+.log-container {
+    background: rgba(13, 17, 23, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 0;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.log-header {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--card-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-dim);
+}
+
+.log-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.log-entry {
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.2s;
+    align-items: flex-start;
+}
+
+.log-entry:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.log-entry.active {
+    background: rgba(63, 185, 80, 0.05);
+    border-left: 3px solid #3fb950;
+}
+
+.log-time {
+    color: var(--text-dim);
+    min-width: 100px;
+    user-select: none;
+    font-size: 12px;
+}
+
+.log-status {
+    font-weight: 700;
+    min-width: 80px;
+    font-size: 12px;
+}
+
+.log-status.info {
+    color: #3d5afe;
+}
+
+.log-status.success {
+    color: #3fb950;
+}
+
+.log-status.warn {
+    color: #ffab00;
+}
+
+.log-status.debug {
+    color: #bc13fe;
+}
+
+.log-content {
+    color: var(--text-primary);
+    flex-grow: 1;
+}
+
+.log-label {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: 11px;
+    margin-right: 6px;
+    color: var(--text-secondary);
+    border: 1px solid var(--card-border);
+}
+
+.page-title-log {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--text-primary);
+}
+
+.page-title-log::before {
+    content: '$ cat';
+    color: var(--text-dim);
+    font-size: 1.1rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+}
+
+/* ─── Sub Navigation (Bottom) ─── */
+.social-links-log {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 3rem;
+}
+
+.social-btn-log {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+}
+
+.social-btn-log:hover {
+    background: rgba(61, 90, 254, 0.1);
+    border-color: #3d5afe;
+    color: #3d5afe;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
