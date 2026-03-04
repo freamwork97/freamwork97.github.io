@@ -21,10 +21,11 @@
 body {
   background-color: var(--bg-primary);
   background-image:
+    radial-gradient(circle at 50% 50%, rgba(63, 185, 80, 0.03), transparent 80%),
     linear-gradient(var(--border-subtle) 1px, transparent 1px),
     linear-gradient(90deg, var(--border-subtle) 1px, transparent 1px);
-  background-size: 40px 40px;
-  background-position: -1px -1px;
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+  background-position: center, -1px -1px, -1px -1px;
   color: var(--text-primary);
   font-family: 'JetBrains Mono', 'Space Mono', monospace;
   margin: 0;
@@ -69,6 +70,7 @@ main {
   background: linear-gradient(135deg, var(--pass-green), var(--info-blue));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   opacity: 0;
   transition: opacity 0.3s;
@@ -115,8 +117,16 @@ main {
 }
 
 @keyframes blink {
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
+
+  0%,
+  49% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
 }
 
 .navbar-toggler {
@@ -174,6 +184,7 @@ main {
   .navbar::before {
     display: none;
   }
+
   .nav-link {
     margin: 0.25rem 0;
   }
@@ -242,20 +253,23 @@ main {
   position: absolute;
   inset: 0;
   background:
-    repeating-linear-gradient(
-      0deg,
+    repeating-linear-gradient(0deg,
       transparent,
       transparent 2px,
       rgba(63, 185, 80, 0.02) 2px,
-      rgba(63, 185, 80, 0.02) 4px
-    );
+      rgba(63, 185, 80, 0.02) 4px);
   pointer-events: none;
   animation: scanline 8s linear infinite;
 }
 
 @keyframes scanline {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(40px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(40px);
+  }
 }
 
 .hero-title {
@@ -291,51 +305,113 @@ main {
 }
 
 /* ─── Hero Cards (Test Case Style) ─── */
+/* ─── Link Cards (Test Case Enhancement) ─── */
 .link-card {
-  background: var(--bg-secondary);
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-primary));
   border: 1px solid var(--border-main);
   border-left: 3px solid var(--pass-green);
-  padding: 20px;
-  border-radius: 4px;
-  transition: var(--transition);
+  padding: 24px;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   height: 100%;
   position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.link-card::after {
-  content: 'PASSED';
+.link-card::before {
+  content: '';
   position: absolute;
-  top: 8px;
-  right: 12px;
-  font-size: 9px;
-  color: var(--pass-green);
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  opacity: 0;
-  transition: var(--transition);
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle at top right, rgba(63, 185, 80, 0.05), transparent);
+  pointer-events: none;
 }
 
 .link-card:hover {
   background: var(--bg-tertiary);
   border-left-color: var(--info-blue);
-  transform: translateX(4px);
+  transform: translateY(-5px);
   box-shadow:
-    -4px 0 0 var(--info-blue),
-    0 4px 12px rgba(0, 0, 0, 0.3);
+    0 10px 30px rgba(0, 0, 0, 0.5),
+    -4px 0 0 var(--info-blue);
 }
 
-.link-card:hover::after {
-  opacity: 1;
+.link-card .card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+
+.link-card .status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--pass-green);
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.05em;
+}
+
+.link-card .card-footer {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border-main);
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.link-card:hover .status-dot {
+  animation: pulse-glow 1s infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  to {
+    transform: scale(1.3);
+    opacity: 1;
+    box-shadow: 0 0 12px var(--pass-green);
+  }
+}
+
+.link-card .status-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--pass-green);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--pass-green);
 }
 
 .link-card a {
   color: var(--text-primary);
   text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 600;
-  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
   transition: color 0.2s;
+  margin-top: 4px;
+}
+
+.link-card .card-tagline {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-top: 4px;
+  opacity: 0.8;
 }
 
 .link-card:hover a {
@@ -851,7 +927,10 @@ footer p::before {
 
 /* Custom cursor for dev feel (optional enhancement) */
 @media (min-width: 992px) {
-  a, button, .link-card {
+
+  a,
+  button,
+  .link-card {
     cursor: pointer;
   }
 
