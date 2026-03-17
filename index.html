@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="UTF-8" />
@@ -11,24 +11,33 @@
 
 <body>
   <div id="HeaderNavi"></div>
-  <!-- Secondary nav can be removed or hidden if redundant, but keeping for compatibility -->
-  <div id="IndexNavi" style="display: none;"></div>
 
   <main>
-    <!-- Hero Section -->
     <section class="hero-section text-center">
       <div class="container">
+
         <span class="accent-text">init session</span>
-        <p class="hero-typing"><span id="typing-text"></span><span class="cursor"></span></p>
-        <h1 class="hero-title">Windra's Portfolio</h1>
-        <p class="lead text-secondary mb-5" style="font-size: 0.9rem; line-height: 1.8;">
-          <span style="color: var(--text-dim);">// </span>QA Engineer × Developer<br>
-          <span style="color: var(--text-dim);">// </span>지식을 테스트하고, 성장을 검증하며, 배움을 기록합니다.
-        </p>
-        <div class="row justify-content-center">
-          <!-- Profile Card -->
-          <div class="col-md-4 mb-4">
-            <div class="link-card">
+
+        <!-- 터미널 창 -->
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title-bar">windra@portfolio ~ bash</span>
+          </div>
+          <div class="terminal-body">
+            <p class="hero-typing"><span id="typing-text"></span><span class="cursor"></span></p>
+            <div class="hero-progress">
+              <div class="hero-progress-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 카드 1행: 3개 -->
+        <div class="cards-row-top">
+          <div class="card-col">
+            <div class="link-card card-profile card-delay-1">
               <div class="card-meta">
                 <span>TC_ID: 001</span>
                 <span>v1.2.0</span>
@@ -42,9 +51,8 @@
             </div>
           </div>
 
-          <!-- TIS Study Card -->
-          <div class="col-md-4 mb-4">
-            <div class="link-card">
+          <div class="card-col">
+            <div class="link-card card-tis card-delay-2">
               <div class="card-meta">
                 <span>TC_ID: 002</span>
                 <span>DAILY</span>
@@ -58,9 +66,8 @@
             </div>
           </div>
 
-          <!-- Projects Card -->
-          <div class="col-md-4 mb-4">
-            <div class="link-card">
+          <div class="card-col">
+            <div class="link-card card-projects card-delay-3">
               <div class="card-meta">
                 <span>TC_ID: 003</span>
                 <span>BUILD</span>
@@ -73,10 +80,12 @@
               <p class="card-tagline">직접 기획하고 개발하며 테스트를 거친 다채로운 프로젝트 결과물입니다.</p>
             </div>
           </div>
+        </div>
 
-          <!-- News Card -->
-          <div class="col-md-4 mb-4">
-            <div class="link-card">
+        <!-- 카드 2행: 2개 (중앙 정렬) -->
+        <div class="cards-row-bottom">
+          <div class="card-col-bottom">
+            <div class="link-card card-news card-delay-4">
               <div class="card-meta">
                 <span>TC_ID: 004</span>
                 <span>RSS</span>
@@ -90,9 +99,8 @@
             </div>
           </div>
 
-          <!-- Now Card -->
-          <div class="col-md-4 mb-4">
-            <div class="link-card">
+          <div class="card-col-bottom">
+            <div class="link-card card-now card-delay-5">
               <div class="card-meta">
                 <span>TC_ID: 005</span>
                 <span>RUNNING</span>
@@ -106,13 +114,15 @@
             </div>
           </div>
         </div>
+
       </div>
     </section>
   </main>
 
   <footer class="text-center">
     <div class="container">
-      <p>&copy; 2024 windra. Built with Passion.</p>
+      <p class="footer-meta">BUILD PASSED | 5 SUITES | 0 FAILURES</p>
+      <p>&copy; 2025 windra. Built with Passion.</p>
     </div>
   </footer>
 
