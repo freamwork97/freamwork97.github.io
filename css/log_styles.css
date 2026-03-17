@@ -1,29 +1,51 @@
-/* ─── Log System for Profile Page ─── */
+/* ─── Log System ─── */
+/* CSS variable fallbacks for all properties */
+
 .log-container {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-main);
+  background: #161b22;
+  background: var(--bg-secondary, #161b22);
+  border: 1px solid #30363d;
+  border: 1px solid var(--border-main, #30363d);
   border-radius: 8px;
   padding: 0;
   margin-bottom: 1.75rem;
   overflow: hidden;
   font-family: 'JetBrains Mono', monospace;
-  transition: box-shadow 0.3s;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+/* 상단 그린 강조 라인 */
+.log-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #3fb950, #58a6ff, transparent);
+  opacity: 0.6;
 }
 
 .log-container:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+  border-color: #3fb950;
+  border-color: var(--pass-green, #3fb950);
 }
 
-/* 터미널 헤더 (dot 3개) */
+/* ─── 터미널 헤더 ─── */
 .log-header {
-  background: var(--bg-tertiary);
+  background: #21262d;
+  background: var(--bg-tertiary, #21262d);
   padding: 10px 16px;
-  border-bottom: 1px solid var(--border-main);
+  border-bottom: 1px solid #30363d;
+  border-bottom: 1px solid var(--border-main, #30363d);
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 10.5px;
-  color: var(--text-dim);
+  color: #8b949e;
+  color: var(--text-secondary, #8b949e);
 }
 
 .log-header-dots {
@@ -47,67 +69,84 @@
   opacity: 0.7;
 }
 
+/* ─── 로그 바디 ─── */
 .log-body {
-  padding: 20px 22px;
+  padding: 16px 20px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
+  background: #0d1117;
+  background: var(--bg-primary, #0d1117);
 }
 
+/* ─── 로그 엔트리 ─── */
 .log-entry {
   display: flex;
   gap: 12px;
   font-size: 12.5px;
   line-height: 1.65;
-  padding: 6px 10px;
+  padding: 7px 10px;
   border-radius: 4px;
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.2s;
   align-items: flex-start;
   border-left: 2px solid transparent;
 }
 
 .log-entry:hover {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.04);
 }
 
-/* 상태별 색상 강조 */
-.log-entry.active,
+/* 상태별 left-border + 배경 */
 .log-entry.success {
-  background: rgba(63, 185, 80, 0.05);
-  border-left-color: var(--pass-green);
+  border-left-color: #3fb950;
+  border-left-color: var(--pass-green, #3fb950);
+  background: rgba(63, 185, 80, 0.04);
 }
 
 .log-entry.info {
-  border-left-color: var(--info-blue);
+  border-left-color: #58a6ff;
+  border-left-color: var(--info-blue, #58a6ff);
+  background: rgba(88, 166, 255, 0.03);
 }
 
 .log-entry.info:hover {
-  background: rgba(88, 166, 255, 0.04);
+  background: rgba(88, 166, 255, 0.07);
 }
 
 .log-entry.warn {
-  border-left-color: var(--warn-yellow);
-}
-
-.log-entry.warn:hover {
+  border-left-color: #d29922;
+  border-left-color: var(--warn-yellow, #d29922);
   background: rgba(210, 153, 34, 0.04);
 }
 
-.log-entry.debug {
-  border-left-color: var(--purple-accent);
+.log-entry.warn:hover {
+  background: rgba(210, 153, 34, 0.08);
 }
 
-.log-entry.debug:hover {
+.log-entry.debug {
+  border-left-color: #bc8cff;
+  border-left-color: var(--purple-accent, #bc8cff);
   background: rgba(188, 140, 255, 0.04);
 }
 
+.log-entry.debug:hover {
+  background: rgba(188, 140, 255, 0.08);
+}
+
+.log-entry.success:hover {
+  background: rgba(63, 185, 80, 0.08);
+}
+
+/* ─── 로그 필드 ─── */
 .log-time {
-  color: var(--text-dim);
-  min-width: 95px;
+  color: #484f58;
+  color: var(--text-dim, #484f58);
+  min-width: 80px;
   user-select: none;
   font-size: 11px;
   padding-top: 1px;
   flex-shrink: 0;
+  letter-spacing: 0.03em;
 }
 
 .log-status {
@@ -116,15 +155,17 @@
   font-size: 11px;
   padding-top: 1px;
   flex-shrink: 0;
+  letter-spacing: 0.05em;
 }
 
-.log-status.info    { color: var(--info-blue); }
-.log-status.success { color: var(--pass-green); }
-.log-status.warn    { color: var(--warn-yellow); }
-.log-status.debug   { color: var(--purple-accent); }
+.log-status.info    { color: #58a6ff; color: var(--info-blue, #58a6ff); }
+.log-status.success { color: #3fb950; color: var(--pass-green, #3fb950); }
+.log-status.warn    { color: #d29922; color: var(--warn-yellow, #d29922); }
+.log-status.debug   { color: #bc8cff; color: var(--purple-accent, #bc8cff); }
 
 .log-content {
-  color: var(--text-primary);
+  color: #c9d1d9;
+  color: var(--text-primary, #c9d1d9);
   flex-grow: 1;
   font-size: 12.5px;
 }
@@ -133,32 +174,41 @@
   display: inline-block;
   padding: 1px 7px;
   border-radius: 3px;
-  background: var(--bg-primary);
+  background: #21262d;
+  background: var(--bg-tertiary, #21262d);
   font-size: 10.5px;
-  margin-right: 6px;
-  color: var(--text-secondary);
-  border: 1px solid var(--border-main);
+  margin-right: 5px;
+  margin-top: 4px;
+  color: #8b949e;
+  color: var(--text-secondary, #8b949e);
+  border: 1px solid #30363d;
+  border: 1px solid var(--border-main, #30363d);
+  font-family: 'JetBrains Mono', monospace;
 }
 
-/* ─── Page Title (Profile) ─── */
+/* ─── 페이지 타이틀 ─── */
 .page-title-log {
   font-size: 1.9rem;
   font-weight: 800;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   gap: 12px;
-  color: var(--text-primary);
+  color: #c9d1d9;
+  color: var(--text-primary, #c9d1d9);
+  font-family: 'Space Mono', 'JetBrains Mono', monospace;
 }
 
 .page-title-log::before {
   content: '$ cat';
-  color: var(--text-dim);
+  color: #3fb950;
+  color: var(--pass-green, #3fb950);
   font-size: 1rem;
   font-weight: 400;
+  opacity: 0.8;
 }
 
-/* ─── Social Links (Profile) ─── */
+/* ─── 소셜 링크 ─── */
 .social-links-log {
   display: flex;
   justify-content: center;
@@ -172,10 +222,13 @@
   align-items: center;
   gap: 7px;
   padding: 0.65rem 1.25rem;
-  background: var(--bg-primary);
-  border: 1px solid var(--border-main);
+  background: #0d1117;
+  background: var(--bg-primary, #0d1117);
+  border: 1px solid #30363d;
+  border: 1px solid var(--border-main, #30363d);
   border-radius: 5px;
-  color: var(--text-secondary);
+  color: #8b949e;
+  color: var(--text-secondary, #8b949e);
   text-decoration: none;
   transition: all 0.25s ease;
   font-family: 'JetBrains Mono', monospace;
@@ -183,9 +236,12 @@
 }
 
 .social-btn-log:hover {
-  background: var(--bg-tertiary);
-  border-color: var(--info-blue);
-  color: var(--info-blue);
+  background: #21262d;
+  background: var(--bg-tertiary, #21262d);
+  border-color: #58a6ff;
+  border-color: var(--info-blue, #58a6ff);
+  color: #58a6ff;
+  color: var(--info-blue, #58a6ff);
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   text-decoration: none;

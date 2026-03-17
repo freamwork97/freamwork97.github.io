@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TIS 페이지</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/log_styles.css" />
   </head>
 
   <body>
@@ -16,14 +14,47 @@
     <div id="TISNavi"></div>
 
     <main class="container my-4">
-      <div class="page-header">
-        <h1>TIS</h1>
-        <p>Things I Studied — 공부한 흔적들을 모아두고 있습니다.</p>
-      </div>
+      <h1 class="page-title-log">TIS</h1>
 
-      <section class="content-section text-center">
-        <p>위의 메뉴를 누르면 GitHub 저장소로 이동합니다.</p>
-      </section>
+      <div class="log-container">
+        <div class="log-header">
+          <div class="log-header-dots">
+            <span class="log-dot red"></span>
+            <span class="log-dot yellow"></span>
+            <span class="log-dot green"></span>
+          </div>
+          <span>LOG_STREAM: study.log</span>
+          <span class="log-header-meta">STATUS: ACTIVE</span>
+        </div>
+        <div class="log-body">
+          <div class="log-entry info">
+            <span class="log-time">[SYSTEM]</span>
+            <span class="log-status info">[INFO]</span>
+            <div class="log-content">
+              Things I Studied — 공부한 흔적들을 모아두고 있습니다.
+            </div>
+          </div>
+          <div class="log-entry success">
+            <span class="log-time">[GUIDE]</span>
+            <span class="log-status success">[SUCCESS]</span>
+            <div class="log-content">
+              위의 메뉴를 누르면 GitHub 저장소로 이동합니다.
+            </div>
+          </div>
+          <div class="log-entry debug">
+            <span class="log-time">[INDEX]</span>
+            <span class="log-status debug">[DEBUG]</span>
+            <div class="log-content">
+              Scanning study categories...
+              <span class="log-label">Python</span>
+              <span class="log-label">C++</span>
+              <span class="log-label">Java</span>
+              <span class="log-label">Data</span>
+              <span class="log-label">Algorithm</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>

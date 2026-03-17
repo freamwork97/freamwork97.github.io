@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>뉴스 페이지</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/log_styles.css" />
   </head>
 
   <body>
@@ -16,14 +14,45 @@
     <div id="NewsNavi"></div>
 
     <main class="container my-4">
-      <div class="page-header">
-        <h1>뉴스</h1>
-        <p>마음에 드는 뉴스들을 모아두고 있습니다.</p>
-      </div>
+      <h1 class="page-title-log">News</h1>
 
-      <section class="content-section text-center">
-        <p>위의 카테고리를 선택하여 뉴스를 확인해보세요.</p>
-      </section>
+      <div class="log-container">
+        <div class="log-header">
+          <div class="log-header-dots">
+            <span class="log-dot red"></span>
+            <span class="log-dot yellow"></span>
+            <span class="log-dot green"></span>
+          </div>
+          <span>LOG_STREAM: news.log</span>
+          <span class="log-header-meta">STATUS: UPDATED</span>
+        </div>
+        <div class="log-body">
+          <div class="log-entry info">
+            <span class="log-time">[SYSTEM]</span>
+            <span class="log-status info">[INFO]</span>
+            <div class="log-content">
+              마음에 드는 뉴스들을 모아두고 있습니다.
+            </div>
+          </div>
+          <div class="log-entry success">
+            <span class="log-time">[GUIDE]</span>
+            <span class="log-status success">[SUCCESS]</span>
+            <div class="log-content">
+              위의 카테고리를 선택하여 뉴스를 확인해보세요.
+            </div>
+          </div>
+          <div class="log-entry debug">
+            <span class="log-time">[INDEX]</span>
+            <span class="log-status debug">[DEBUG]</span>
+            <div class="log-content">
+              Scanning news categories...
+              <span class="log-label">Economy</span>
+              <span class="log-label">IT</span>
+              <span class="log-label">BlockChain</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>

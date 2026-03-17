@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>프로젝트 페이지</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/log_styles.css" />
   </head>
 
   <body>
@@ -16,14 +14,45 @@
     <div id="ProjectNavi"></div>
 
     <main class="container my-4">
-      <div class="page-header">
-        <h1>프로젝트</h1>
-        <p>진행한 프로젝트 흔적들을 모아두었습니다.</p>
-      </div>
+      <h1 class="page-title-log">Projects</h1>
 
-      <section class="content-section text-center">
-        <p>위의 메뉴를 누르면 GitHub 저장소로 이동합니다.</p>
-      </section>
+      <div class="log-container">
+        <div class="log-header">
+          <div class="log-header-dots">
+            <span class="log-dot red"></span>
+            <span class="log-dot yellow"></span>
+            <span class="log-dot green"></span>
+          </div>
+          <span>LOG_STREAM: projects.log</span>
+          <span class="log-header-meta">STATUS: STABLE</span>
+        </div>
+        <div class="log-body">
+          <div class="log-entry info">
+            <span class="log-time">[SYSTEM]</span>
+            <span class="log-status info">[INFO]</span>
+            <div class="log-content">
+              진행한 프로젝트 흔적들을 모아두었습니다.
+            </div>
+          </div>
+          <div class="log-entry success">
+            <span class="log-time">[GUIDE]</span>
+            <span class="log-status success">[SUCCESS]</span>
+            <div class="log-content">
+              위의 메뉴를 누르면 GitHub 저장소로 이동합니다.
+            </div>
+          </div>
+          <div class="log-entry debug">
+            <span class="log-time">[INDEX]</span>
+            <span class="log-status debug">[DEBUG]</span>
+            <div class="log-content">
+              Scanning project repositories...
+              <span class="log-label">회원제 게시판</span>
+              <span class="log-label">주식정보 사이트</span>
+              <span class="log-label">뉴스분류</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
