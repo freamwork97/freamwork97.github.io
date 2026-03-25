@@ -11,6 +11,10 @@ $(function () {
 });
 
 $(function () {
+  $("#DeployNavi").load("../Navi/DeployNavi.html");
+});
+
+$(function () {
   $("#HeaderNavi").load("../Navi/HeaderNavi.html", function () {
     const path = window.location.pathname;
     $("#HeaderNavi .nav-link").each(function () {

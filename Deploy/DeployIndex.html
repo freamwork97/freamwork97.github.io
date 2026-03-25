@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deploy | Windra</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/log_styles.css" />
+  </head>
+
+  <body>
+    <div id="HeaderNavi"></div>
+    <div id="DeployNavi"></div>
+
+    <main class="container my-4">
+      <h1 class="page-title-log">Deploy</h1>
+
+      <div class="log-container">
+        <div class="log-header">
+          <div class="log-header-dots">
+            <span class="log-dot red"></span>
+            <span class="log-dot yellow"></span>
+            <span class="log-dot green"></span>
+          </div>
+          <span>LOG_STREAM: deploy.log</span>
+          <span class="log-header-meta">STATUS: LIVE</span>
+        </div>
+        <div class="log-body">
+          <div class="log-entry info">
+            <span class="log-time">[SYSTEM]</span>
+            <span class="log-status info">[INFO]</span>
+            <div class="log-content">
+              배포된 서비스 목록입니다.
+            </div>
+          </div>
+          <div class="log-entry success">
+            <span class="log-time">[GUIDE]</span>
+            <span class="log-status success">[SUCCESS]</span>
+            <div class="log-content">
+              위의 메뉴를 누르면 배포된 서비스로 이동합니다.
+            </div>
+          </div>
+          <div class="log-entry debug">
+            <span class="log-time">[INDEX]</span>
+            <span class="log-status debug">[DEBUG]</span>
+            <div class="log-content">
+              Scanning deployed services...
+              <span class="log-label">Financial Report Generator</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p class="footer-meta">BUILD PASSED | 5 SUITES | 0 FAILURES</p>
+        <p>&copy; 2025 windra. Built with Passion.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../JS/Navi.js"></script>
+  </body>
+</html>
