@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 | Page Not Found</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <style>
+    .error-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 120px);
+      padding: 2rem;
+    }
+
+    .error-terminal {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-main);
+      border-radius: 8px;
+      max-width: 640px;
+      width: 100%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px var(--border-main);
+      overflow: hidden;
+    }
+
+    .error-terminal-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 14px;
+      background: var(--bg-tertiary);
+      border-bottom: 1px solid var(--border-main);
+    }
+
+    .error-terminal-body {
+      padding: 24px 28px 32px;
+      text-align: left;
+    }
+
+    .error-code {
+      font-size: 4rem;
+      font-weight: 800;
+      color: var(--error-red);
+      line-height: 1;
+      margin-bottom: 4px;
+      font-family: 'Space Mono', monospace;
+      text-shadow: 0 0 30px rgba(248, 81, 73, 0.4);
+    }
+
+    .error-label {
+      font-size: 0.7rem;
+      color: var(--error-red);
+      letter-spacing: 0.15em;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      opacity: 0.8;
+    }
+
+    .error-log {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 2rem;
+      font-size: 12.5px;
+    }
+
+    .error-log-line {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .error-log-time {
+      color: var(--text-dim);
+      flex-shrink: 0;
+      font-size: 11px;
+      padding-top: 1px;
+    }
+
+    .error-log-tag {
+      font-weight: 700;
+      font-size: 11px;
+      flex-shrink: 0;
+      padding-top: 1px;
+    }
+
+    .error-log-tag.err { color: var(--error-red); }
+    .error-log-tag.warn { color: var(--warn-yellow); }
+    .error-log-tag.info { color: var(--info-blue); }
+
+    .error-log-msg { color: var(--text-primary); }
+    .error-log-msg .dim { color: var(--text-dim); }
+
+    .error-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .error-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0.55rem 1.1rem;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 1px solid;
+      cursor: pointer;
+    }
+
+    .error-btn-primary {
+      background: rgba(63, 185, 80, 0.1);
+      border-color: rgba(63, 185, 80, 0.4);
+      color: var(--pass-green);
+    }
+
+    .error-btn-primary:hover {
+      background: rgba(63, 185, 80, 0.2);
+      border-color: var(--pass-green);
+      color: var(--pass-green);
+      text-decoration: none;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(63, 185, 80, 0.2);
+    }
+
+    .error-btn-secondary {
+      background: transparent;
+      border-color: var(--border-main);
+      color: var(--text-secondary);
+    }
+
+    .error-btn-secondary:hover {
+      background: var(--bg-tertiary);
+      border-color: var(--text-dim);
+      color: var(--text-primary);
+      text-decoration: none;
+      transform: translateY(-2px);
+    }
+
+    .error-divider {
+      height: 1px;
+      background: var(--border-main);
+      margin: 1.5rem 0;
+    }
+
+    .error-hint {
+      font-size: 11px;
+      color: var(--text-dim);
+    }
+
+    .error-hint::before {
+      content: '// ';
+      color: var(--pass-green);
+      opacity: 0.6;
+    }
+
+    @keyframes glitch {
+      0%, 100% { clip-path: inset(0 0 95% 0); transform: translate(-4px, 0); }
+      20% { clip-path: inset(60% 0 30% 0); transform: translate(4px, 0); }
+      40% { clip-path: inset(30% 0 60% 0); transform: translate(-2px, 0); }
+      60% { clip-path: inset(80% 0 5% 0); transform: translate(3px, 0); }
+      80% { clip-path: inset(10% 0 80% 0); transform: translate(-3px, 0); }
+    }
+
+    .error-code-wrap {
+      position: relative;
+      display: inline-block;
+    }
+
+    .error-code-wrap::after {
+      content: '404';
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: var(--info-blue);
+      font-size: 4rem;
+      font-weight: 800;
+      font-family: 'Space Mono', monospace;
+      line-height: 1;
+      animation: glitch 4s infinite;
+      opacity: 0.4;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="error-wrap">
+      <div class="error-terminal">
+        <div class="error-terminal-header">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title-bar">windra@portfolio ~ bash</span>
+        </div>
+        <div class="error-terminal-body">
+          <div class="error-code-wrap">
+            <div class="error-code">404</div>
+          </div>
+          <div class="error-label">PROCESS TERMINATED — ROUTE NOT FOUND</div>
+
+          <div class="error-log">
+            <div class="error-log-line">
+              <span class="error-log-time">[SYSTEM]</span>
+              <span class="error-log-tag err">[ERROR]</span>
+              <span class="error-log-msg">Cannot GET <span class="dim">this_page</span> — No such file or directory</span>
+            </div>
+            <div class="error-log-line">
+              <span class="error-log-time">[STACK]</span>
+              <span class="error-log-tag warn">[WARN]</span>
+              <span class="error-log-msg">Route resolution failed. Exit code: 404</span>
+            </div>
+            <div class="error-log-line">
+              <span class="error-log-time">[HINT]</span>
+              <span class="error-log-tag info">[INFO]</span>
+              <span class="error-log-msg">Returning to root process may resolve the issue.</span>
+            </div>
+          </div>
+
+          <div class="error-divider"></div>
+
+          <div class="error-actions">
+            <a href="/" class="error-btn error-btn-primary">
+              <span>↩</span> cd ~/home
+            </a>
+            <a href="javascript:history.back()" class="error-btn error-btn-secondary">
+              <span>←</span> go back
+            </a>
+          </div>
+
+          <div class="error-divider"></div>
+          <p class="error-hint">페이지가 삭제되었거나 URL이 잘못되었을 수 있습니다.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center">
+    <div class="container">
+      <p class="footer-meta">BUILD PASSED | 5 SUITES | 0 FAILURES</p>
+      <p>&copy; 2025 windra. Built with Passion.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

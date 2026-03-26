@@ -16,21 +16,25 @@
     <section class="hero-section text-center">
       <div class="container">
 
-        <span class="accent-text">init session</span>
+        <span class="accent-text">interactive shell</span>
 
-        <!-- 터미널 창 -->
-        <div class="terminal-window">
+        <!-- 인터랙티브 터미널 -->
+        <div class="inter-terminal" style="max-width:660px; margin:0 auto 2.5rem;">
           <div class="terminal-header">
             <span class="terminal-dot red"></span>
             <span class="terminal-dot yellow"></span>
             <span class="terminal-dot green"></span>
             <span class="terminal-title-bar">windra@portfolio ~ bash</span>
+            <span class="inter-hint">type 'help' to get started</span>
           </div>
-          <div class="terminal-body">
-            <p class="hero-typing"><span id="typing-text"></span><span class="cursor"></span></p>
-            <div class="hero-progress">
-              <div class="hero-progress-bar"></div>
+          <div class="inter-output" id="inter-output">
+            <div class="inter-line">
+              <span class="inter-text green">✓ session initialized — type 'help' for available commands.</span>
             </div>
+          </div>
+          <div class="inter-input-line">
+            <span class="inter-prompt">windra@portfolio:~$</span>
+            <input type="text" id="inter-input" class="inter-input" autocomplete="off" spellcheck="false" placeholder="enter command..." aria-label="terminal input" />
           </div>
         </div>
 
@@ -146,39 +150,142 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="JS/Navi.js"></script>
   <script>
+    /* ─── Interactive Terminal ─── */
     (function () {
-      const lines = [
-        '$ init portfolio...',
-        '✓ profile loaded',
-        '✓ projects indexed',
-        '✓ running test suite...',
-        '▸ all systems ready',
-      ];
-      const el = document.getElementById('typing-text');
-      let lineIdx = 0, charIdx = 0, deleting = false;
+      const output = document.getElementById('inter-output');
+      const input  = document.getElementById('inter-input');
+      const history = [];
+      let histIdx = -1;
 
-      function tick() {
-        const current = lines[lineIdx];
-        if (!deleting) {
-          el.textContent = current.slice(0, ++charIdx);
-          if (charIdx === current.length) {
-            deleting = true;
-            setTimeout(tick, 1600);
-            return;
-          }
-          setTimeout(tick, 55);
-        } else {
-          el.textContent = current.slice(0, --charIdx);
-          if (charIdx === 0) {
-            deleting = false;
-            lineIdx = (lineIdx + 1) % lines.length;
-            setTimeout(tick, 300);
-            return;
-          }
-          setTimeout(tick, 28);
-        }
+      const PAGES = {
+        profile:  '/Profile/ProfileIndex.html',
+        tis:      '/TIS/TISIndex.html',
+        projects: '/Project/ProjectIndex.html',
+        news:     '/News/NewsIndex.html',
+        now:      '/Now/NowIndex.html',
+        deploy:   '/Deploy/DeployIndex.html',
+      };
+
+      const COMMANDS = {
+        help: () => [
+          { text: 'Available commands:', cls: 'blue' },
+          { text: '  help          — show this message', cls: '' },
+          { text: '  whoami        — about me', cls: '' },
+          { text: '  skills        — tech stack', cls: '' },
+          { text: '  ls            — list pages', cls: '' },
+          { text: '  goto [page]   — navigate to page', cls: '' },
+          { text: '  contact       — contact info', cls: '' },
+          { text: '  date          — current date & time', cls: '' },
+          { text: '  clear         — clear terminal', cls: '' },
+        ],
+        whoami: () => [
+          { text: 'Name   : 정승용 (Windra)', cls: 'green' },
+          { text: 'Role   : QA Engineer × Full-Stack Developer', cls: '' },
+          { text: 'Bio    : 개발을 좋아하는 QA 엔지니어.', cls: '' },
+          { text: '         지식을 테스트하고, 성장을 검증하며, 배움을 기록으로 증명합니다.', cls: '' },
+        ],
+        about: () => COMMANDS.whoami(),
+        skills: () => [
+          { text: '[STACK] scanning...', cls: 'yellow' },
+          { text: '  → Python  FastAPI  MySQL  GitHub  HTML/CSS/JS', cls: 'purple' },
+          { text: '[STACK] scan complete.', cls: 'green' },
+        ],
+        ls: () => [
+          { text: 'Available pages:', cls: 'blue' },
+          ...Object.keys(PAGES).map(p => ({ text: `  → ${p}`, cls: '' })),
+          { text: 'Usage: goto [page]', cls: 'dim' },
+        ],
+        contact: () => [
+          { text: 'GitHub : https://github.com/freamwork97', cls: 'blue' },
+          { text: 'Email  : freamwork@kakao.com', cls: 'blue' },
+        ],
+        date: () => [
+          { text: new Date().toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', hour12: false }), cls: 'green' },
+        ],
+        clear: () => null,
+        sudo: () => [{ text: 'Permission denied. Nice try.', cls: 'red' }],
+        su: () => [{ text: 'su: Authentication failure.', cls: 'red' }],
+        exit: () => [{ text: 'logout: Cannot exit — you are always here.', cls: 'dim' }],
+        github: () => { window.open('https://github.com/freamwork97', '_blank'); return [{ text: 'Opening GitHub...', cls: 'green' }]; },
+      };
+
+      function appendLine(html) {
+        const div = document.createElement('div');
+        div.className = 'inter-line';
+        div.innerHTML = html;
+        output.appendChild(div);
+        output.scrollTop = output.scrollHeight;
       }
-      tick();
+
+      function run(raw) {
+        const trimmed = raw.trim();
+        if (!trimmed) return;
+
+        history.unshift(trimmed);
+        histIdx = -1;
+
+        // echo the typed command
+        appendLine(`<span class="inter-prompt">windra@portfolio:~$</span><span class="inter-cmd"> ${escHtml(trimmed)}</span>`);
+
+        const parts = trimmed.split(/\s+/);
+        const cmd   = parts[0].toLowerCase();
+        const args  = parts.slice(1);
+
+        if (cmd === 'goto') {
+          const target = args[0] ? args[0].toLowerCase() : '';
+          if (PAGES[target]) {
+            appendLine(`<span class="inter-text green">Navigating to ${escHtml(target)}...</span>`);
+            setTimeout(() => { window.location.href = PAGES[target]; }, 600);
+          } else {
+            appendLine(`<span class="inter-text red">goto: unknown page '${escHtml(target || '')}'. Run 'ls' to see available pages.</span>`);
+          }
+          return;
+        }
+
+        const handler = COMMANDS[cmd];
+        if (!handler) {
+          appendLine(`<span class="inter-text red">command not found: ${escHtml(cmd)} — try 'help'</span>`);
+          return;
+        }
+
+        const lines = handler();
+        if (lines === null) {
+          output.innerHTML = '';
+          return;
+        }
+        lines.forEach(({ text, cls }) => {
+          appendLine(`<span class="inter-text ${cls}">${escHtml(text)}</span>`);
+        });
+      }
+
+      function escHtml(s) {
+        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+      }
+
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          run(input.value);
+          input.value = '';
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          if (histIdx < history.length - 1) {
+            histIdx++;
+            input.value = history[histIdx];
+          }
+        } else if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          if (histIdx > 0) {
+            histIdx--;
+            input.value = history[histIdx];
+          } else {
+            histIdx = -1;
+            input.value = '';
+          }
+        }
+      });
+
+      // 터미널 클릭시 input focus
+      document.querySelector('.inter-terminal').addEventListener('click', () => input.focus());
     })();
   </script>
 </body>

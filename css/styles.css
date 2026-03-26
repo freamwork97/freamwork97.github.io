@@ -1120,6 +1120,88 @@ footer p::before {
   }
 }
 
+/* ─── Interactive Terminal ─── */
+.inter-terminal {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-main);
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: left;
+}
+
+.inter-hint {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
+
+.inter-output {
+  padding: 16px 20px 8px;
+  height: 100px;
+  overflow-y: auto;
+  background: var(--bg-primary);
+}
+
+.inter-line {
+  display: flex;
+  gap: 8px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  flex-wrap: wrap;
+  margin-bottom: 3px;
+}
+
+.inter-prompt {
+  color: var(--pass-green);
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.inter-cmd {
+  color: var(--text-primary);
+}
+
+.inter-text {
+  color: var(--text-secondary);
+}
+
+.inter-text.green { color: var(--pass-green); }
+.inter-text.blue  { color: var(--info-blue); }
+.inter-text.yellow{ color: var(--warn-yellow); }
+.inter-text.red   { color: var(--error-red); }
+.inter-text.dim   { color: var(--text-dim); }
+.inter-text.purple{ color: var(--purple-accent); }
+
+.inter-input-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-main);
+}
+
+.inter-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12.5px;
+  caret-color: var(--pass-green);
+}
+
+.inter-input::placeholder {
+  color: var(--text-dim);
+  opacity: 0.6;
+}
+
 /* ─── Utils ─── */
 .mb-custom { margin-bottom: 60px; }
 
