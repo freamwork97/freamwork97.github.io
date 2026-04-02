@@ -80,10 +80,9 @@ export default function TerminalHero() {
         break;
       case 'whoami': case 'about':
         addLines([
-          { text: 'Name   : 정승용 (Windra)', cls: 'green' },
-          { text: 'Role   : QA Engineer × Full-Stack Developer' },
-          { text: 'Bio    : 개발을 좋아하는 QA 엔지니어.' },
-          { text: '         지식을 테스트하고, 성장을 검증하며, 배움을 기록으로 증명합니다.' },
+          { cols: ['Name', '정승용 (Windra)'],                                                              cls: 'green' },
+          { cols: ['Role', 'QA Engineer × Full-Stack Developer'] },
+          { cols: ['Bio',  '개발을 좋아하는 QA 엔지니어. 지식을 테스트하고, 성장을 검증하며, 배움을 기록으로 증명합니다.'] },
         ]);
         break;
       case 'skills':
@@ -102,8 +101,8 @@ export default function TerminalHero() {
         break;
       case 'contact':
         addLines([
-          { text: 'GitHub : https://github.com/freamwork97', cls: 'blue' },
-          { text: 'Email  : freamwork@kakao.com', cls: 'blue' },
+          { cols: ['GitHub', 'https://github.com/freamwork97'], cls: 'blue' },
+          { cols: ['Email',  'freamwork@kakao.com'],            cls: 'blue' },
         ]);
         break;
       case 'date':
@@ -161,7 +160,7 @@ export default function TerminalHero() {
       <div ref={outputRef} className={styles.output}>
         {lines.map((line, i) =>
           line.cols ? (
-            <div key={i} className={styles.helpRow}>
+            <div key={i} className={`${styles.helpRow} ${line.cls ? styles[line.cls] : ''}`}>
               <span className={styles.helpCmd}>{line.cols[0]}</span>
               <span className={styles.helpSep}>—</span>
               <span className={styles.helpDesc}>{line.cols[1]}</span>

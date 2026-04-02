@@ -77,12 +77,13 @@
 
 .helpRow {
   display: grid;
-  grid-template-columns: 120px 20px 1fr;
+  grid-template-columns: 100px 20px 1fr;
   align-items: baseline;
   font-size: var(--text-base);
   line-height: 1.6;
   padding-left: 8px;
 }
-.helpCmd  { color: var(--color-accent-cyan, #79c0ff); }
+/* default colors — overridden when cls is applied to the row */
+.helpRow:not(.blue):not(.green) .helpCmd { color: var(--color-accent-cyan, #79c0ff); }
+.helpRow:not(.blue):not(.green) .helpDesc { color: var(--color-text-primary); }
 .helpSep  { color: var(--color-text-dim); text-align: center; }
-.helpDesc { color: var(--color-text-primary); }
