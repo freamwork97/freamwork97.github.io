@@ -43,3 +43,8 @@
   gap: 4px;
   background: var(--color-bg-primary);
 }
+
+@media (max-width: 576px) {
+  .body { padding: 10px 10px; }
+  .header { padding: 8px 10px; font-size: 10px; }
+}

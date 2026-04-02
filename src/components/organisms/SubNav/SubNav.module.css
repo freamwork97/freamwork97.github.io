@@ -31,3 +31,9 @@
   border-color: var(--color-status-success);
   color: var(--color-status-success);
 }
+
+@media (max-width: 576px) {
+  .nav { padding: 0.5rem 0.75rem; }
+  .links { gap: 0.3rem; }
+  .link { padding: 5px 10px; font-size: 11px; }
+}

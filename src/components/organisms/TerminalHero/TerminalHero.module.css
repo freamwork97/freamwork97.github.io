@@ -100,3 +100,13 @@
 .helpRow:not(.blue):not(.green) .helpCmd { color: var(--color-accent-cyan, #79c0ff); }
 .helpRow:not(.blue):not(.green) .helpDesc { color: var(--color-text-primary); }
 .helpSep  { color: var(--color-text-dim); text-align: center; }
+
+@media (max-width: 576px) {
+  .terminal { border-radius: var(--radius-lg); margin-bottom: 1.5rem; }
+  .output   { max-height: 240px; padding: 8px 10px; }
+  .inputLine { padding: 6px 10px; }
+  .prompt   { font-size: 10px; }
+  .input    { font-size: var(--text-base); }
+  .helpRow  { grid-template-columns: 80px 16px 1fr; padding-left: 4px; }
+  .lsItem   { min-width: 90px; }
+}

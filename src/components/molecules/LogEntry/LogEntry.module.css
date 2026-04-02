@@ -48,6 +48,13 @@
 .status.warn    { color: var(--color-status-warning); }
 .status.debug   { color: var(--color-accent-purple); }
 
+@media (max-width: 576px) {
+  .entry { gap: 6px; padding: 5px 8px; }
+  .time   { min-width: 56px; font-size: 10px; }
+  .status { min-width: 58px; font-size: 10px; }
+  .content { font-size: var(--text-sm); }
+}
+
 .content a {
   color: var(--color-accent-cyan, #79c0ff);
   text-decoration: none;

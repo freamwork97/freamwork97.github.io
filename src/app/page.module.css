@@ -1,5 +1,9 @@
 .main { flex: 1; }
 .hero { padding: 3rem 0; text-align: center; }
+
+@media (max-width: 576px) {
+  .hero { padding: 1.5rem 0; }
+}
 .accentText {
   display: block;
   font-size: var(--text-xs);

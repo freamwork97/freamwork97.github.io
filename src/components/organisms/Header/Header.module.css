@@ -126,3 +126,9 @@
   .navLink { text-align: left; }
   .inner { position: relative; flex-wrap: wrap; }
 }
+
+@media (max-width: 576px) {
+  .inner { padding: var(--navbar-padding-y) 1rem; }
+  .brand { font-size: var(--text-md); }
+  .navLink { padding: 0.5rem 0.75rem; font-size: 13px; min-height: 40px; }
+}

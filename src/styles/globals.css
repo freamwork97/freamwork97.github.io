@@ -86,3 +86,14 @@ a:hover { text-decoration: underline; }
   font-weight: var(--font-normal);
   opacity: 0.8;
 }
+
+@media (max-width: 576px) {
+  .page-title-log {
+    font-size: var(--text-xl);
+    gap: 8px;
+    margin-bottom: 1rem;
+  }
+  .page-title-log::before {
+    font-size: var(--text-base);
+  }
+}
