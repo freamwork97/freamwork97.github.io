@@ -6,7 +6,8 @@ import TerminalDots from '@/components/atoms/TerminalDots/TerminalDots';
 import styles from './TerminalHero.module.css';
 
 interface TerminalLine {
-  text: string;
+  text?: string;
+  cols?: [string, string];  // [command, description] — renders as aligned two-column row
   cls?: string;
 }
 
@@ -67,14 +68,14 @@ export default function TerminalHero() {
       case 'help':
         addLines([
           { text: 'Available commands:', cls: 'blue' },
-          { text: '  help          — show this message' },
-          { text: '  whoami        — about me' },
-          { text: '  skills        — tech stack' },
-          { text: '  ls            — list pages' },
-          { text: '  goto [page]   — navigate to page' },
-          { text: '  contact       — contact info' },
-          { text: '  date          — current date & time' },
-          { text: '  clear         — clear terminal' },
+          { cols: ['help',        'show this message'] },
+          { cols: ['whoami',      'about me'] },
+          { cols: ['skills',      'tech stack'] },
+          { cols: ['ls',          'list pages'] },
+          { cols: ['goto [page]', 'navigate to page'] },
+          { cols: ['contact',     'contact info'] },
+          { cols: ['date',        'current date & time'] },
+          { cols: ['clear',       'clear terminal'] },
         ]);
         break;
       case 'whoami': case 'about':
@@ -158,11 +159,19 @@ export default function TerminalHero() {
         <span className={styles.hint}>type &apos;help&apos; to get started</span>
       </div>
       <div ref={outputRef} className={styles.output}>
-        {lines.map((line, i) => (
-          <div key={i} className={`${styles.line} ${line.cls ? styles[line.cls] : ''}`}>
-            {line.text}
-          </div>
-        ))}
+        {lines.map((line, i) =>
+          line.cols ? (
+            <div key={i} className={styles.helpRow}>
+              <span className={styles.helpCmd}>{line.cols[0]}</span>
+              <span className={styles.helpSep}>—</span>
+              <span className={styles.helpDesc}>{line.cols[1]}</span>
+            </div>
+          ) : (
+            <div key={i} className={`${styles.line} ${line.cls ? styles[line.cls] : ''}`}>
+              {line.text}
+            </div>
+          )
+        )}
       </div>
       <div className={styles.inputLine}>
         <span className={styles.prompt}>windra@portfolio:~$</span>

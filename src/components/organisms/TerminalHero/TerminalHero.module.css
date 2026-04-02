@@ -74,3 +74,15 @@
   caret-color: var(--color-status-success);
 }
 .input::placeholder { color: var(--color-text-dim); }
+
+.helpRow {
+  display: grid;
+  grid-template-columns: 120px 20px 1fr;
+  align-items: baseline;
+  font-size: var(--text-base);
+  line-height: 1.6;
+  padding-left: 8px;
+}
+.helpCmd  { color: var(--color-accent-cyan, #79c0ff); }
+.helpSep  { color: var(--color-text-dim); text-align: center; }
+.helpDesc { color: var(--color-text-primary); }
