@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import LogPageLayout from '@/components/templates/LogPageLayout/LogPageLayout';
 import LogContainer from '@/components/organisms/LogContainer/LogContainer';
 import LogEntry from '@/components/molecules/LogEntry/LogEntry';
+import NewsList from '@/components/organisms/NewsList/NewsList';
 import { NEWS_SUB_NAV } from '../newsData';
 import { ECONOMY_LINKS, IT_LINKS, BLOCKCHAIN_LINKS } from '../newsLinks';
 
@@ -39,13 +40,7 @@ export default function NewsCategoryPage({ params }: Props) {
         <LogEntry time="[SYSTEM]" status="info">
           {meta.title} 카테고리 뉴스를 모아두고 있습니다. ({meta.links.length}개)
         </LogEntry>
-        {meta.links.map((link, i) => (
-          <LogEntry key={i} time={`[${String(i + 1).padStart(3, '0')}]`} status="debug">
-            <a href={link.href} target="_blank" rel="noopener noreferrer">
-              {link.title}
-            </a>
-          </LogEntry>
-        ))}
+        <NewsList links={meta.links} />
       </LogContainer>
     </LogPageLayout>
   );
