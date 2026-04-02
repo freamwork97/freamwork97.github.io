@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--card-gap);
+  margin: 2rem auto;
+  max-width: 1060px;
+}
+.grid > * {
+  flex: 1 1 260px;
+  max-width: 340px;
+}
+
+@media (max-width: 860px) {
+  .grid > * { flex: 1 1 calc(50% - var(--card-gap)); max-width: none; }
+}
+@media (max-width: 576px) {
+  .grid > * { flex: 1 1 100%; max-width: none; }
+}

@@ -1,0 +1,9 @@
+.dots { display: flex; gap: 5px; align-items: center; }
+.dot  { border-radius: 50%; display: inline-block; }
+
+.sm .dot { width: 9px;  height: 9px; }
+.md .dot { width: 10px; height: 10px; }
+
+.red    { background: var(--color-dot-red); }
+.yellow { background: var(--color-dot-yellow); }
+.green  { background: var(--color-dot-green); }

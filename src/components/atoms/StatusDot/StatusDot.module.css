@@ -1,0 +1,16 @@
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.green  { background: var(--color-status-success); box-shadow: 0 0 6px var(--color-status-success); }
+.blue   { background: var(--color-status-info);    box-shadow: 0 0 6px var(--color-status-info); }
+.yellow { background: var(--color-status-warning); box-shadow: 0 0 6px var(--color-status-warning); }
+.purple { background: var(--color-accent-purple);  box-shadow: 0 0 6px var(--color-accent-purple); }
+.orange { background: var(--color-accent-orange);  box-shadow: 0 0 6px var(--color-accent-orange); }
+.cyan   { background: var(--color-accent-cyan);    box-shadow: 0 0 6px var(--color-accent-cyan); }
+
+.pulse { animation: pulse-glow 1.5s infinite alternate; }

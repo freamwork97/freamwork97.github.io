@@ -1,0 +1,11 @@
+.main { flex: 1; }
+.hero { padding: 3rem 0; text-align: center; }
+.accentText {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--color-status-success);
+  letter-spacing: var(--tracking-widest);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+}
