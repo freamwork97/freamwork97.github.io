@@ -3,11 +3,17 @@ import LogPageLayout from '@/components/templates/LogPageLayout/LogPageLayout';
 import LogContainer from '@/components/organisms/LogContainer/LogContainer';
 import LogEntry from '@/components/molecules/LogEntry/LogEntry';
 import { NEWS_SUB_NAV } from '../newsData';
+import { ECONOMY_LINKS, IT_LINKS, BLOCKCHAIN_LINKS } from '../newsLinks';
 
-const CATEGORY_META: Record<string, { title: string; stream: string; meta: string }> = {
-  economy:    { title: '경제',     stream: 'LOG_STREAM: news_economy.log',    meta: 'CATEGORY: Economy' },
-  it:         { title: 'IT',       stream: 'LOG_STREAM: news_it.log',         meta: 'CATEGORY: IT' },
-  blockchain: { title: '블록체인', stream: 'LOG_STREAM: news_blockchain.log', meta: 'CATEGORY: BlockChain' },
+const CATEGORY_META: Record<string, {
+  title: string;
+  stream: string;
+  meta: string;
+  links: readonly { href: string; title: string }[];
+}> = {
+  economy:    { title: '경제',     stream: 'LOG_STREAM: news_economy.log',    meta: 'CATEGORY: Economy',    links: ECONOMY_LINKS },
+  it:         { title: 'IT',       stream: 'LOG_STREAM: news_it.log',         meta: 'CATEGORY: IT',         links: IT_LINKS },
+  blockchain: { title: '블록체인', stream: 'LOG_STREAM: news_blockchain.log', meta: 'CATEGORY: BlockChain', links: BLOCKCHAIN_LINKS },
 };
 
 export function generateStaticParams() {
@@ -31,11 +37,15 @@ export default function NewsCategoryPage({ params }: Props) {
     <LogPageLayout title={`News / ${meta.title}`} subNav={subNav}>
       <LogContainer streamName={meta.stream} meta={meta.meta}>
         <LogEntry time="[SYSTEM]" status="info">
-          {meta.title} 카테고리 뉴스를 모아두고 있습니다.
+          {meta.title} 카테고리 뉴스를 모아두고 있습니다. ({meta.links.length}개)
         </LogEntry>
-        <LogEntry time="[STATUS]" status="warn" statusLabel="[WATCH]">
-          콘텐츠를 준비 중입니다. 곧 업데이트됩니다.
-        </LogEntry>
+        {meta.links.map((link, i) => (
+          <LogEntry key={i} time={`[${String(i + 1).padStart(3, '0')}]`} status="debug">
+            <a href={link.href} target="_blank" rel="noopener noreferrer">
+              {link.title}
+            </a>
+          </LogEntry>
+        ))}
       </LogContainer>
     </LogPageLayout>
   );

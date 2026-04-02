@@ -47,3 +47,13 @@
 .status.success { color: var(--color-status-success); }
 .status.warn    { color: var(--color-status-warning); }
 .status.debug   { color: var(--color-accent-purple); }
+
+.content a {
+  color: var(--color-accent-cyan, #79c0ff);
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+  color: var(--color-status-success);
+}
