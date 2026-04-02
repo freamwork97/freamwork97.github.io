@@ -7,7 +7,8 @@ import styles from './TerminalHero.module.css';
 
 interface TerminalLine {
   text?: string;
-  cols?: [string, string];  // [command, description] — renders as aligned two-column row
+  cols?: [string, string];  // [label, value] — renders as aligned two-column row
+  items?: string[];          // renders as horizontal ls-style grid
   cls?: string;
 }
 
@@ -94,8 +95,7 @@ export default function TerminalHero() {
         break;
       case 'ls':
         addLines([
-          { text: 'Available pages:', cls: 'blue' },
-          ...Object.keys(PAGES).map(p => ({ text: `  → ${p}` })),
+          { items: Object.keys(PAGES).map(p => `${p}/`) },
           { text: 'Usage: goto [page]', cls: 'dim' },
         ]);
         break;
@@ -164,6 +164,12 @@ export default function TerminalHero() {
               <span className={styles.helpCmd}>{line.cols[0]}</span>
               <span className={styles.helpSep}>—</span>
               <span className={styles.helpDesc}>{line.cols[1]}</span>
+            </div>
+          ) : line.items ? (
+            <div key={i} className={styles.lsRow}>
+              {line.items.map((item, j) => (
+                <span key={j} className={styles.lsItem}>{item}</span>
+              ))}
             </div>
           ) : (
             <div key={i} className={`${styles.line} ${line.cls ? styles[line.cls] : ''}`}>

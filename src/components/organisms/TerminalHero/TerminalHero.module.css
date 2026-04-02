@@ -75,6 +75,19 @@
 }
 .input::placeholder { color: var(--color-text-dim); }
 
+.lsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 0;
+  padding-left: 8px;
+  line-height: 1.6;
+}
+.lsItem {
+  color: var(--color-status-info);
+  font-size: var(--text-base);
+  min-width: 110px;
+}
+
 .helpRow {
   display: grid;
   grid-template-columns: 100px 20px 1fr;
