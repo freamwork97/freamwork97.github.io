@@ -1,6 +1,10 @@
+'use client';
+
+import { useState, useCallback } from 'react';
 import TerminalHero from '@/components/organisms/TerminalHero/TerminalHero';
 import CardGrid from '@/components/organisms/CardGrid/CardGrid';
 import LinkCard from '@/components/molecules/LinkCard/LinkCard';
+import BootScreen from '@/components/organisms/BootScreen/BootScreen';
 import styles from './page.module.css';
 
 const CARDS = [
@@ -13,8 +17,12 @@ const CARDS = [
 ] as const;
 
 export default function HomePage() {
+  const [booting, setBooting] = useState(true);
+  const handleDone = useCallback(() => setBooting(false), []);
+
   return (
     <main className={styles.main}>
+      {booting && <BootScreen onDone={handleDone} />}
       <section className={styles.hero}>
         <div className="container">
           <span className={styles.accentText}>interactive shell</span>
