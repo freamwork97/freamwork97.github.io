@@ -36,7 +36,7 @@ export default function ProfilePage() {
             <Badge>Python</Badge>
             <Badge>FastAPI</Badge>
             <Badge>MySQL</Badge>
-            <Badge>Github</Badge>
+            <Badge>GitHub</Badge>
             <Badge>HTML/CSS/JS</Badge>
           </div>
         </LogEntry>
