@@ -4,6 +4,7 @@ import LogEntry from '@/components/molecules/LogEntry/LogEntry';
 
 const SERVICES = [
   { label: 'Financial Report Generator', href: 'https://financial-report-generator-taupe.vercel.app/', desc: '재무 보고서 자동 생성 서비스' },
+  { label: 'Swing Entry Finder', href: 'https://swing-entry-finder.streamlit.app', desc: '스윙 매매 진입 시점 탐색 서비스' },
 ];
 
 export default function DeployPage() {
